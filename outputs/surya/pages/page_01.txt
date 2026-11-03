@@ -1,0 +1,58 @@
+Output
+Probabilities
+Softmax
+Linear
+Add & Norm
+Feed
+Forward
+Add & Norm
+Add & Norm
+Multi-Head
+Feed
+Attention
+<b>Forward</b>
+<math>N \times</math>
+Add & Norm
+<math>N \times</math>
+Add & Norm
+Masked
+Multi-Head
+Multi-Head
+Attention
+Attention
+Positional
+Positional
+Encoding
+Encoding
+Output
+Input
+Embedding
+Embedding
+Outputs
+Inputs
+(shifted right)
+Figure 1: The Transformer - model architecture.
+The Transformer follows this overall architecture using stacked self-attention and point-wise, fully
+connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1,
+respectively.
+<b>Encoder and Decoder Stacks</b>
+3.1
+The encoder is composed of a stack of <math>N=6</math> identical layers. Each layer has two
+<b>Encoder:</b>
+sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-
+wise fully connected feed-forward network. We employ a residual connection [11] around each of
+the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is
+LayerNorm<math>(x + \text{Sublayer}(x))</math>, where Sublayer<math>(x)</math> is the function implemented by the sub-layer
+itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding
+layers, produce outputs of dimension <math>d_{\text{model}} = 512</math>.
+<b>Decoder:</b> The decoder is also composed of a stack of <math>N=6</math> identical layers. In addition to the two
+sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head
+attention over the output of the encoder stack. Similar to the encoder, we employ residual connections
+around each of the sub-layers, followed by layer normalization. We also modify the self-attention
+sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This
+masking, combined with fact that the output embeddings are offset by one position, ensures that the
+predictions for position <math>i</math> can depend only on the known outputs at positions less than <math>i</math>.
+3.2 Attention
+An attention function can be described as mapping a query and a set of key-value pairs to an output,
+where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
+3

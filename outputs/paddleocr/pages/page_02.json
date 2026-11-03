@@ -1,0 +1,1322 @@
+[
+  {
+    "text": "Scaled Dot-Product Attention",
+    "confidence": 0.9999924898147583,
+    "bounding_box": [
+      [
+        615,
+        295
+      ],
+      [
+        1110,
+        295
+      ],
+      [
+        1110,
+        332
+      ],
+      [
+        615,
+        332
+      ]
+    ]
+  },
+  {
+    "text": "Multi-Head Attention",
+    "confidence": 0.9999876022338867,
+    "bounding_box": [
+      [
+        1513,
+        295
+      ],
+      [
+        1876,
+        295
+      ],
+      [
+        1876,
+        332
+      ],
+      [
+        1513,
+        332
+      ]
+    ]
+  },
+  {
+    "text": "Linear",
+    "confidence": 0.9999971985816956,
+    "bounding_box": [
+      [
+        1610,
+        389
+      ],
+      [
+        1706,
+        393
+      ],
+      [
+        1704,
+        433
+      ],
+      [
+        1608,
+        429
+      ]
+    ]
+  },
+  {
+    "text": "MatMul",
+    "confidence": 0.9999191761016846,
+    "bounding_box": [
+      [
+        845,
+        441
+      ],
+      [
+        954,
+        441
+      ],
+      [
+        954,
+        477
+      ],
+      [
+        845,
+        477
+      ]
+    ]
+  },
+  {
+    "text": "Concat",
+    "confidence": 0.9999950528144836,
+    "bounding_box": [
+      [
+        1602,
+        496
+      ],
+      [
+        1713,
+        496
+      ],
+      [
+        1713,
+        535
+      ],
+      [
+        1602,
+        535
+      ]
+    ]
+  },
+  {
+    "text": "SoftMax",
+    "confidence": 0.9999911189079285,
+    "bounding_box": [
+      [
+        765,
+        526
+      ],
+      [
+        889,
+        529
+      ],
+      [
+        888,
+        565
+      ],
+      [
+        765,
+        562
+      ]
+    ]
+  },
+  {
+    "text": "Mask (opt.)",
+    "confidence": 0.9998460412025452,
+    "bounding_box": [
+      [
+        745,
+        613
+      ],
+      [
+        909,
+        615
+      ],
+      [
+        908,
+        654
+      ],
+      [
+        745,
+        652
+      ]
+    ]
+  },
+  {
+    "text": "Scaled Dot-Product",
+    "confidence": 0.9999902248382568,
+    "bounding_box": [
+      [
+        1522,
+        627
+      ],
+      [
+        1797,
+        627
+      ],
+      [
+        1797,
+        658
+      ],
+      [
+        1522,
+        658
+      ]
+    ]
+  },
+  {
+    "text": "h",
+    "confidence": 0.9999511241912842,
+    "bounding_box": [
+      [
+        1920,
+        646
+      ],
+      [
+        1945,
+        646
+      ],
+      [
+        1945,
+        678
+      ],
+      [
+        1920,
+        678
+      ]
+    ]
+  },
+  {
+    "text": "Attention",
+    "confidence": 0.9999926090240479,
+    "bounding_box": [
+      [
+        1600,
+        664
+      ],
+      [
+        1727,
+        664
+      ],
+      [
+        1727,
+        696
+      ],
+      [
+        1600,
+        696
+      ]
+    ]
+  },
+  {
+    "text": "Scale",
+    "confidence": 0.9999908208847046,
+    "bounding_box": [
+      [
+        782,
+        697
+      ],
+      [
+        873,
+        697
+      ],
+      [
+        873,
+        738
+      ],
+      [
+        782,
+        738
+      ]
+    ]
+  },
+  {
+    "text": "MatMul",
+    "confidence": 0.9998990893363953,
+    "bounding_box": [
+      [
+        772,
+        789
+      ],
+      [
+        883,
+        789
+      ],
+      [
+        883,
+        825
+      ],
+      [
+        772,
+        825
+      ]
+    ]
+  },
+  {
+    "text": "Linear",
+    "confidence": 0.9999966621398926,
+    "bounding_box": [
+      [
+        1463,
+        781
+      ],
+      [
+        1560,
+        783
+      ],
+      [
+        1559,
+        823
+      ],
+      [
+        1462,
+        821
+      ]
+    ]
+  },
+  {
+    "text": "Linear",
+    "confidence": 0.9999967217445374,
+    "bounding_box": [
+      [
+        1608,
+        783
+      ],
+      [
+        1704,
+        783
+      ],
+      [
+        1704,
+        823
+      ],
+      [
+        1608,
+        823
+      ]
+    ]
+  },
+  {
+    "text": "Linear",
+    "confidence": 0.9999971985816956,
+    "bounding_box": [
+      [
+        1757,
+        785
+      ],
+      [
+        1850,
+        785
+      ],
+      [
+        1850,
+        821
+      ],
+      [
+        1757,
+        821
+      ]
+    ]
+  },
+  {
+    "text": "1",
+    "confidence": 0.508425235748291,
+    "bounding_box": [
+      [
+        861,
+        837
+      ],
+      [
+        885,
+        837
+      ],
+      [
+        885,
+        873
+      ],
+      [
+        861,
+        873
+      ]
+    ]
+  },
+  {
+    "text": "Q",
+    "confidence": 0.9999959468841553,
+    "bounding_box": [
+      [
+        759,
+        881
+      ],
+      [
+        791,
+        881
+      ],
+      [
+        791,
+        916
+      ],
+      [
+        759,
+        916
+      ]
+    ]
+  },
+  {
+    "text": "K",
+    "confidence": 0.9999120235443115,
+    "bounding_box": [
+      [
+        854,
+        881
+      ],
+      [
+        892,
+        881
+      ],
+      [
+        892,
+        916
+      ],
+      [
+        854,
+        916
+      ]
+    ]
+  },
+  {
+    "text": "V",
+    "confidence": 0.9948221445083618,
+    "bounding_box": [
+      [
+        1497,
+        957
+      ],
+      [
+        1523,
+        957
+      ],
+      [
+        1523,
+        987
+      ],
+      [
+        1497,
+        987
+      ]
+    ]
+  },
+  {
+    "text": "K",
+    "confidence": 0.9998422861099243,
+    "bounding_box": [
+      [
+        1638,
+        955
+      ],
+      [
+        1674,
+        955
+      ],
+      [
+        1674,
+        994
+      ],
+      [
+        1638,
+        994
+      ]
+    ]
+  },
+  {
+    "text": "Q",
+    "confidence": 0.9999974966049194,
+    "bounding_box": [
+      [
+        1784,
+        954
+      ],
+      [
+        1819,
+        954
+      ],
+      [
+        1819,
+        995
+      ],
+      [
+        1784,
+        995
+      ]
+    ]
+  },
+  {
+    "text": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+    "confidence": 0.9993537664413452,
+    "bounding_box": [
+      [
+        444,
+        1140
+      ],
+      [
+        2102,
+        1138
+      ],
+      [
+        2102,
+        1181
+      ],
+      [
+        444,
+        1183
+      ]
+    ]
+  },
+  {
+    "text": "attention layers running in parallel.",
+    "confidence": 0.9885298013687134,
+    "bounding_box": [
+      [
+        447,
+        1188
+      ],
+      [
+        1032,
+        1188
+      ],
+      [
+        1032,
+        1228
+      ],
+      [
+        447,
+        1228
+      ]
+    ]
+  },
+  {
+    "text": "of the values, where the weight assigned to each value is computed by a compatibility function of the",
+    "confidence": 0.9962045550346375,
+    "bounding_box": [
+      [
+        446,
+        1319
+      ],
+      [
+        2101,
+        1319
+      ],
+      [
+        2101,
+        1362
+      ],
+      [
+        446,
+        1362
+      ]
+    ]
+  },
+  {
+    "text": "query with the corresponding key.",
+    "confidence": 0.9999957084655762,
+    "bounding_box": [
+      [
+        447,
+        1368
+      ],
+      [
+        1013,
+        1368
+      ],
+      [
+        1013,
+        1409
+      ],
+      [
+        447,
+        1409
+      ]
+    ]
+  },
+  {
+    "text": "3.2.1 Scaled Dot-Product Attention",
+    "confidence": 0.9991225004196167,
+    "bounding_box": [
+      [
+        446,
+        1460
+      ],
+      [
+        1101,
+        1460
+      ],
+      [
+        1101,
+        1501
+      ],
+      [
+        446,
+        1501
+      ]
+    ]
+  },
+  {
+    "text": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of",
+    "confidence": 0.991264283657074,
+    "bounding_box": [
+      [
+        446,
+        1539
+      ],
+      [
+        2104,
+        1539
+      ],
+      [
+        2104,
+        1579
+      ],
+      [
+        446,
+        1579
+      ]
+    ]
+  },
+  {
+    "text": "queries and keys of dimension dk, and values of dimension dv. We compute the dot products of the",
+    "confidence": 0.9994992613792419,
+    "bounding_box": [
+      [
+        445,
+        1585
+      ],
+      [
+        2103,
+        1583
+      ],
+      [
+        2103,
+        1626
+      ],
+      [
+        445,
+        1628
+      ]
+    ]
+  },
+  {
+    "text": "query with all keys, divide each by √dk, and apply a softmax function to obtain the weights on the",
+    "confidence": 0.9921889305114746,
+    "bounding_box": [
+      [
+        445,
+        1630
+      ],
+      [
+        2103,
+        1627
+      ],
+      [
+        2103,
+        1671
+      ],
+      [
+        445,
+        1674
+      ]
+    ]
+  },
+  {
+    "text": "values.",
+    "confidence": 0.9999963641166687,
+    "bounding_box": [
+      [
+        445,
+        1676
+      ],
+      [
+        566,
+        1676
+      ],
+      [
+        566,
+        1715
+      ],
+      [
+        445,
+        1715
+      ]
+    ]
+  },
+  {
+    "text": "In practice, we compute the attention function on a set of queries simultaneously, packed together",
+    "confidence": 0.9914908409118652,
+    "bounding_box": [
+      [
+        445,
+        1743
+      ],
+      [
+        2104,
+        1743
+      ],
+      [
+        2104,
+        1786
+      ],
+      [
+        445,
+        1786
+      ]
+    ]
+  },
+  {
+    "text": "into a matrix Q. The keys and values are also packed together into matrices K and V. We compute",
+    "confidence": 0.9971126914024353,
+    "bounding_box": [
+      [
+        445,
+        1788
+      ],
+      [
+        2103,
+        1788
+      ],
+      [
+        2103,
+        1831
+      ],
+      [
+        445,
+        1831
+      ]
+    ]
+  },
+  {
+    "text": "the matrix of outputs as:",
+    "confidence": 0.999973475933075,
+    "bounding_box": [
+      [
+        446,
+        1834
+      ],
+      [
+        855,
+        1836
+      ],
+      [
+        855,
+        1876
+      ],
+      [
+        446,
+        1874
+      ]
+    ]
+  },
+  {
+    "text": "QKT",
+    "confidence": 0.9972350001335144,
+    "bounding_box": [
+      [
+        1470,
+        1936
+      ],
+      [
+        1580,
+        1927
+      ],
+      [
+        1584,
+        1987
+      ],
+      [
+        1474,
+        1996
+      ]
+    ]
+  },
+  {
+    "text": "Attention(Q, K, V) = softmax(",
+    "confidence": 0.9815311431884766,
+    "bounding_box": [
+      [
+        914,
+        1966
+      ],
+      [
+        1485,
+        1966
+      ],
+      [
+        1485,
+        2013
+      ],
+      [
+        914,
+        2013
+      ]
+    ]
+  },
+  {
+    "text": ")V",
+    "confidence": 0.9908732175827026,
+    "bounding_box": [
+      [
+        1570,
+        1963
+      ],
+      [
+        1635,
+        1959
+      ],
+      [
+        1638,
+        2015
+      ],
+      [
+        1574,
+        2019
+      ]
+    ]
+  },
+  {
+    "text": "(1)",
+    "confidence": 0.9998416900634766,
+    "bounding_box": [
+      [
+        2047,
+        1964
+      ],
+      [
+        2109,
+        1964
+      ],
+      [
+        2109,
+        2017
+      ],
+      [
+        2047,
+        2017
+      ]
+    ]
+  },
+  {
+    "text": "√dk",
+    "confidence": 0.9990993142127991,
+    "bounding_box": [
+      [
+        1484,
+        1991
+      ],
+      [
+        1577,
+        1991
+      ],
+      [
+        1577,
+        2049
+      ],
+      [
+        1484,
+        2049
+      ]
+    ]
+  },
+  {
+    "text": "The two most commonly used attention functions are additive attention [2], and dot-product (multi-",
+    "confidence": 0.9999883770942688,
+    "bounding_box": [
+      [
+        445,
+        2079
+      ],
+      [
+        2108,
+        2079
+      ],
+      [
+        2108,
+        2122
+      ],
+      [
+        445,
+        2122
+      ]
+    ]
+  },
+  {
+    "text": "plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor",
+    "confidence": 0.9976657032966614,
+    "bounding_box": [
+      [
+        445,
+        2125
+      ],
+      [
+        2105,
+        2125
+      ],
+      [
+        2105,
+        2169
+      ],
+      [
+        445,
+        2169
+      ]
+    ]
+  },
+  {
+    "text": "of",
+    "confidence": 0.9999968409538269,
+    "bounding_box": [
+      [
+        443,
+        2169
+      ],
+      [
+        492,
+        2166
+      ],
+      [
+        495,
+        2209
+      ],
+      [
+        445,
+        2212
+      ]
+    ]
+  },
+  {
+    "text": ". Additive attention computes the compatibility function using a feed-forward network with",
+    "confidence": 0.9961738586425781,
+    "bounding_box": [
+      [
+        562,
+        2170
+      ],
+      [
+        2103,
+        2170
+      ],
+      [
+        2103,
+        2213
+      ],
+      [
+        562,
+        2213
+      ]
+    ]
+  },
+  {
+    "text": "√dk",
+    "confidence": 0.9986482262611389,
+    "bounding_box": [
+      [
+        497,
+        2187
+      ],
+      [
+        569,
+        2191
+      ],
+      [
+        566,
+        2233
+      ],
+      [
+        494,
+        2229
+      ]
+    ]
+  },
+  {
+    "text": "a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is",
+    "confidence": 0.9970405697822571,
+    "bounding_box": [
+      [
+        445,
+        2225
+      ],
+      [
+        2103,
+        2225
+      ],
+      [
+        2103,
+        2268
+      ],
+      [
+        445,
+        2268
+      ]
+    ]
+  },
+  {
+    "text": "much faster and more space-efficient in practice, since it can be implemented using highly optimized",
+    "confidence": 0.9963150024414062,
+    "bounding_box": [
+      [
+        446,
+        2272
+      ],
+      [
+        2103,
+        2272
+      ],
+      [
+        2103,
+        2312
+      ],
+      [
+        446,
+        2312
+      ]
+    ]
+  },
+  {
+    "text": "matrix multiplication code.",
+    "confidence": 0.999997079372406,
+    "bounding_box": [
+      [
+        446,
+        2317
+      ],
+      [
+        900,
+        2317
+      ],
+      [
+        900,
+        2357
+      ],
+      [
+        446,
+        2357
+      ]
+    ]
+  },
+  {
+    "text": "While for small values of dk the two mechanisms perform similarly, additive attention outperforms",
+    "confidence": 0.9895277619361877,
+    "bounding_box": [
+      [
+        444,
+        2384
+      ],
+      [
+        2102,
+        2385
+      ],
+      [
+        2102,
+        2426
+      ],
+      [
+        444,
+        2425
+      ]
+    ]
+  },
+  {
+    "text": "dot product attention without scaling for larger values of dk [3]. We suspect that for large values of",
+    "confidence": 0.9975283145904541,
+    "bounding_box": [
+      [
+        445,
+        2430
+      ],
+      [
+        2105,
+        2428
+      ],
+      [
+        2105,
+        2471
+      ],
+      [
+        445,
+        2473
+      ]
+    ]
+  },
+  {
+    "text": "dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has",
+    "confidence": 0.9999345541000366,
+    "bounding_box": [
+      [
+        448,
+        2476
+      ],
+      [
+        2100,
+        2476
+      ],
+      [
+        2100,
+        2516
+      ],
+      [
+        448,
+        2516
+      ]
+    ]
+  },
+  {
+    "text": "extremely small gradients 4. To counteract this effect, we scale the dot products by",
+    "confidence": 0.996880054473877,
+    "bounding_box": [
+      [
+        443,
+        2517
+      ],
+      [
+        1826,
+        2519
+      ],
+      [
+        1826,
+        2566
+      ],
+      [
+        443,
+        2564
+      ]
+    ]
+  },
+  {
+    "text": "1",
+    "confidence": 0.9999836683273315,
+    "bounding_box": [
+      [
+        1856,
+        2516
+      ],
+      [
+        1879,
+        2516
+      ],
+      [
+        1879,
+        2542
+      ],
+      [
+        1856,
+        2542
+      ]
+    ]
+  },
+  {
+    "text": "√dk",
+    "confidence": 0.998896598815918,
+    "bounding_box": [
+      [
+        1833,
+        2542
+      ],
+      [
+        1904,
+        2542
+      ],
+      [
+        1904,
+        2581
+      ],
+      [
+        1833,
+        2581
+      ]
+    ]
+  },
+  {
+    "text": "3.2.2 Multi-Head Attention",
+    "confidence": 0.9999057054519653,
+    "bounding_box": [
+      [
+        446,
+        2625
+      ],
+      [
+        962,
+        2625
+      ],
+      [
+        962,
+        2665
+      ],
+      [
+        446,
+        2665
+      ]
+    ]
+  },
+  {
+    "text": "Instead of performing a single attention function with dmodel-dimensional keys, values and queries,",
+    "confidence": 0.9957634806632996,
+    "bounding_box": [
+      [
+        445,
+        2704
+      ],
+      [
+        2106,
+        2704
+      ],
+      [
+        2106,
+        2747
+      ],
+      [
+        445,
+        2747
+      ]
+    ]
+  },
+  {
+    "text": "we found it beneficial to linearly project the queries, keys and values h times with different, learned",
+    "confidence": 0.9994549751281738,
+    "bounding_box": [
+      [
+        445,
+        2749
+      ],
+      [
+        2105,
+        2749
+      ],
+      [
+        2105,
+        2792
+      ],
+      [
+        445,
+        2792
+      ]
+    ]
+  },
+  {
+    "text": "linear projections to dk, dk and dv dimensions, respectively. On each of these projected versions of",
+    "confidence": 0.9867210388183594,
+    "bounding_box": [
+      [
+        446,
+        2795
+      ],
+      [
+        2105,
+        2795
+      ],
+      [
+        2105,
+        2838
+      ],
+      [
+        446,
+        2838
+      ]
+    ]
+  },
+  {
+    "text": "queries, keys and values we then perform the attention function in parallel, yielding dv-dimensional",
+    "confidence": 0.9968507289886475,
+    "bounding_box": [
+      [
+        446,
+        2841
+      ],
+      [
+        2103,
+        2839
+      ],
+      [
+        2103,
+        2882
+      ],
+      [
+        446,
+        2885
+      ]
+    ]
+  },
+  {
+    "text": "4To illustrate why the dot products get large, assume that the components of q and k are independent random",
+    "confidence": 0.997053325176239,
+    "bounding_box": [
+      [
+        497,
+        2914
+      ],
+      [
+        2104,
+        2920
+      ],
+      [
+        2104,
+        2967
+      ],
+      [
+        497,
+        2962
+      ]
+    ]
+  },
+  {
+    "text": "variables with mean 0 and variance 1. Then their dot product, q · k = Σd=1 qiki, has mean 0 and variance dk.",
+    "confidence": 0.9865007996559143,
+    "bounding_box": [
+      [
+        442,
+        2962
+      ],
+      [
+        2103,
+        2962
+      ],
+      [
+        2103,
+        3015
+      ],
+      [
+        442,
+        3015
+      ]
+    ]
+  },
+  {
+    "text": "4",
+    "confidence": 0.9999884366989136,
+    "bounding_box": [
+      [
+        1260,
+        3093
+      ],
+      [
+        1289,
+        3093
+      ],
+      [
+        1289,
+        3129
+      ],
+      [
+        1260,
+        3129
+      ]
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.322,
+            0.09,
+            0.677,
+            0.498
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.339,
+                0.51,
+                0.658,
+                0.525
+              ],
+              "content": "Figure 1: The Transformer - model architecture."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.549,
+            0.827,
+            0.593
+          ],
+          "content": "The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.172,
+            0.608,
+            0.416,
+            0.623
+          ],
+          "level": 2,
+          "content": "3.1 Encoder and Decoder Stacks"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.633,
+            0.828,
+            0.733
+          ],
+          "content": "Encoder: The encoder is composed of a stack of N = 6 identical layers. Each layer has two sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, positionwise fully connected feed-forward network. We employ a residual connection [11] around each of the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding layers, produce outputs of dimension $d _ { \\mathrm { m o d e l } } = 5 1 2$"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.745,
+            0.827,
+            0.845
+          ],
+          "content": "Decoder: The decoder is also composed of a stack of N = 6 identical layers. In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, we employ residual connections around each of the sub-layers, followed by layer normalization. We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.173,
+            0.858,
+            0.282,
+            0.873
+          ],
+          "level": 2,
+          "content": "3.2 Attention"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.172,
+            0.885,
+            0.828,
+            0.914
+          ],
+          "content": "An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.494,
+            0.937,
+            0.505,
+            0.949
+          ],
+          "content": "3"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.4"
+    },
+    "document": {}
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 918.0,
+          "height_pt": 1188.0
+        }
+      ]
+    }
+  },
+  "is_full_document": true
+}

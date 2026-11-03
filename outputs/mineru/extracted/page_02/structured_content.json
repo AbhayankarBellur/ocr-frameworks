@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "image",
+          "bbox": [
+            0.281,
+            0.087,
+            0.763,
+            0.306
+          ],
+          "content": "",
+          "captions": [
+            {
+              "bbox": [
+                0.171,
+                0.345,
+                0.825,
+                0.375
+              ],
+              "content": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel."
+            }
+          ],
+          "footnotes": [],
+          "image_source": "images/page_0_image_0.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.398,
+            0.826,
+            0.428
+          ],
+          "content": "of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key."
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.172,
+            0.442,
+            0.434,
+            0.456
+          ],
+          "level": 2,
+          "content": "3.2.1 Scaled Dot-Product Attention"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.465,
+            0.827,
+            0.522
+          ],
+          "content": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of queries and keys of dimension $d_{k}$ , and values of dimension $d_{v}$ . We compute the dot products of the query with all keys, divide each by $\\sqrt { d _ { k } }$ , and apply a softmax function to obtain the weights on the values."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.528,
+            0.826,
+            0.57
+          ],
+          "content": "In practice, we compute the attention function on a set of queries simultaneously, packed together into a matrix Q. The keys and values are also packed together into matrices K and V. We compute the matrix of outputs as:"
+        },
+        {
+          "type": "equation",
+          "bbox": [
+            0.356,
+            0.585,
+            0.825,
+            0.62
+          ],
+          "content": "Attention (Q, K, V) =  softmax (\\frac{QK^T}{\\sqrt{d_k}})V\\tag{1}",
+          "image_source": "images/page_0_equation_6.jpg"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.629,
+            0.827,
+            0.717
+          ],
+          "content": "The two most commonly used attention functions are additive attention [2], and dot-product (multi-plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor of $\\frac{1}{\\sqrt{d_{k}}}$ . Additive attention computes the compatibility function using a feed-forward network with a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized matrix multiplication code."
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.721,
+            0.827,
+            0.781
+          ],
+          "content": "While for small values of $d_{k}$ the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of $d_{k}$ [3]. We suspect that for large values of $d_{k},$ the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients 4. To counteract this effect, we scale the dot products by $\\frac{1}{\\sqrt{d_{k}}}$"
+        },
+        {
+          "type": "paragraph_title",
+          "bbox": [
+            0.173,
+            0.795,
+            0.38,
+            0.809
+          ],
+          "level": 2,
+          "content": "3.2.2 Multi-Head Attention"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.818,
+            0.827,
+            0.876
+          ],
+          "content": "Instead of performing a single attention function with $d _ { \\mathrm { m o d e l } }$ -dimensional keys, values and queries, we found it beneficial to linearly project the queries, keys and values h times with different, learned linear projections to $d _ { k } ,   d _ { k }$ and $d_{v}$ dimensions, respectively. On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding $d_{v}$ -dimensional"
+        },
+        {
+          "type": "text",
+          "bbox": [
+            0.171,
+            0.885,
+            0.825,
+            0.913
+          ],
+          "content": "4To illustrate why the dot products get large, assume that the components of q and k are independent random variables with mean 0 and variance 1. Then their dot product, $\\begin{array} { r } { q \\cdot k = \\sum _ { i = 1 } ^ { d _ { k } } q _ { i } k _ { i } } \\end{array}$ , has mean 0 and variance $d_{k}$"
+        },
+        {
+          "type": "page_number",
+          "bbox": [
+            0.494,
+            0.937,
+            0.505,
+            0.948
+          ],
+          "content": "4"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.4"
+    },
+    "document": {}
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 918.0,
+          "height_pt": 1188.0
+        }
+      ]
+    }
+  },
+  "is_full_document": true
+}

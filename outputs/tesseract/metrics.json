@@ -1,0 +1,79 @@
+{
+  "input_pdf": "C:\\Users\\abhay\\tiny-inference-lab-ocr\\data\\rasterized\\attention_is_all_you_need_rasterized.pdf",
+  "pages": 5,
+  "tesseract_version": "tesseract v5.5.3.20260724",
+  "language": "eng",
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "total_wall_seconds_including_render_and_writes": 12.5842,
+  "total_recognized_words": 2286,
+  "mean_page_confidence": 92.6,
+  "page_results": [
+    {
+      "page": 1,
+      "width_px": 2550,
+      "height_px": 3300,
+      "dpi": 300,
+      "language": "eng",
+      "psm": 3,
+      "elapsed_seconds": 1.8383,
+      "recognized_words": 335,
+      "mean_word_confidence": 93.66,
+      "rendered_image_bytes": 502698,
+      "text_characters": 2098
+    },
+    {
+      "page": 2,
+      "width_px": 2550,
+      "height_px": 3300,
+      "dpi": 300,
+      "language": "eng",
+      "psm": 3,
+      "elapsed_seconds": 1.9757,
+      "recognized_words": 398,
+      "mean_word_confidence": 91.86,
+      "rendered_image_bytes": 566071,
+      "text_characters": 2527
+    },
+    {
+      "page": 3,
+      "width_px": 2550,
+      "height_px": 3300,
+      "dpi": 300,
+      "language": "eng",
+      "psm": 3,
+      "elapsed_seconds": 2.3915,
+      "recognized_words": 540,
+      "mean_word_confidence": 92.32,
+      "rendered_image_bytes": 626752,
+      "text_characters": 3461
+    },
+    {
+      "page": 4,
+      "width_px": 2550,
+      "height_px": 3300,
+      "dpi": 300,
+      "language": "eng",
+      "psm": 3,
+      "elapsed_seconds": 2.698,
+      "recognized_words": 518,
+      "mean_word_confidence": 91.99,
+      "rendered_image_bytes": 645275,
+      "text_characters": 3177
+    },
+    {
+      "page": 5,
+      "width_px": 2550,
+      "height_px": 3300,
+      "dpi": 300,
+      "language": "eng",
+      "psm": 3,
+      "elapsed_seconds": 2.2158,
+      "recognized_words": 495,
+      "mean_word_confidence": 93.17,
+      "rendered_image_bytes": 604394,
+      "text_characters": 2985
+    }
+  ]
+}

@@ -1,0 +1,1398 @@
+{
+  "page": 3,
+  "image": "page_03.png",
+  "dimensions": [
+    2550,
+    3300
+  ],
+  "inference_time_seconds": 109.9119,
+  "recognized_lines": 63,
+  "text_lines": [
+    {
+      "text": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+      "polygon": [
+        [
+          446.0,
+          299.0
+        ],
+        [
+          2105.0,
+          299.0
+        ],
+        [
+          2105.0,
+          334.0
+        ],
+        [
+          446.0,
+          334.0
+        ]
+      ],
+      "confidence": 0.9980467066322405
+    },
+    {
+      "text": "for different layer types. <math>n</math> is the sequence length, <math>d</math> is the representation dimension, <math>k</math> is the kernel",
+      "polygon": [
+        [
+          444.0,
+          344.0
+        ],
+        [
+          2108.0,
+          344.0
+        ],
+        [
+          2108.0,
+          380.0
+        ],
+        [
+          444.0,
+          380.0
+        ]
+      ],
+      "confidence": 0.9949583948722908
+    },
+    {
+      "text": "size of convolutions and r the size of the neighborhood in restricted self-attention.",
+      "polygon": [
+        [
+          446.0,
+          389.0
+        ],
+        [
+          1814.0,
+          389.0
+        ],
+        [
+          1814.0,
+          425.0
+        ],
+        [
+          446.0,
+          425.0
+        ]
+      ],
+      "confidence": 0.9927768001611206
+    },
+    {
+      "text": "Maximum Path Length",
+      "polygon": [
+        [
+          1640.0,
+          487.0
+        ],
+        [
+          2042.0,
+          487.0
+        ],
+        [
+          2042.0,
+          522.0
+        ],
+        [
+          1640.0,
+          522.0
+        ]
+      ],
+      "confidence": 0.9883923360279628
+    },
+    {
+      "text": "Layer Type",
+      "polygon": [
+        [
+          512.0,
+          488.0
+        ],
+        [
+          714.0,
+          488.0
+        ],
+        [
+          714.0,
+          523.0
+        ],
+        [
+          512.0,
+          523.0
+        ]
+      ],
+      "confidence": 0.9808960904677709
+    },
+    {
+      "text": "Complexity per Layer",
+      "polygon": [
+        [
+          992.0,
+          488.0
+        ],
+        [
+          1374.0,
+          488.0
+        ],
+        [
+          1374.0,
+          523.0
+        ],
+        [
+          992.0,
+          523.0
+        ]
+      ],
+      "confidence": 0.9977996078404513
+    },
+    {
+      "text": "Sequential",
+      "polygon": [
+        [
+          1415.0,
+          488.0
+        ],
+        [
+          1600.0,
+          488.0
+        ],
+        [
+          1600.0,
+          523.0
+        ],
+        [
+          1415.0,
+          523.0
+        ]
+      ],
+      "confidence": 0.9801830811934038
+    },
+    {
+      "text": "Operations",
+      "polygon": [
+        [
+          1406.0,
+          534.0
+        ],
+        [
+          1602.0,
+          534.0
+        ],
+        [
+          1602.0,
+          568.0
+        ],
+        [
+          1406.0,
+          568.0
+        ]
+      ],
+      "confidence": 0.9575658928264271
+    },
+    {
+      "text": "<math>O(n^2 \\cdot d)</math>",
+      "polygon": [
+        [
+          1094.0,
+          583.0
+        ],
+        [
+          1262.0,
+          583.0
+        ],
+        [
+          1262.0,
+          622.0
+        ],
+        [
+          1094.0,
+          622.0
+        ]
+      ],
+      "confidence": 0.9853986219355935
+    },
+    {
+      "text": "Self-Attention",
+      "polygon": [
+        [
+          514.0,
+          585.0
+        ],
+        [
+          762.0,
+          585.0
+        ],
+        [
+          762.0,
+          618.0
+        ],
+        [
+          514.0,
+          618.0
+        ]
+      ],
+      "confidence": 0.9695461131632328
+    },
+    {
+      "text": "O(1)",
+      "polygon": [
+        [
+          1457.0,
+          585.0
+        ],
+        [
+          1544.0,
+          585.0
+        ],
+        [
+          1544.0,
+          621.0
+        ],
+        [
+          1457.0,
+          621.0
+        ]
+      ],
+      "confidence": 0.9374166329701742
+    },
+    {
+      "text": "O(1)",
+      "polygon": [
+        [
+          1791.0,
+          585.0
+        ],
+        [
+          1876.0,
+          585.0
+        ],
+        [
+          1876.0,
+          622.0
+        ],
+        [
+          1791.0,
+          622.0
+        ]
+      ],
+      "confidence": 0.9401085906558566
+    },
+    {
+      "text": "<math>O(n \\cdot d^2)</math>",
+      "polygon": [
+        [
+          1092.0,
+          628.0
+        ],
+        [
+          1266.0,
+          628.0
+        ],
+        [
+          1266.0,
+          669.0
+        ],
+        [
+          1092.0,
+          669.0
+        ]
+      ],
+      "confidence": 0.8218504221815812
+    },
+    {
+      "text": "O(n)",
+      "polygon": [
+        [
+          1453.0,
+          632.0
+        ],
+        [
+          1549.0,
+          632.0
+        ],
+        [
+          1549.0,
+          669.0
+        ],
+        [
+          1453.0,
+          669.0
+        ]
+      ],
+      "confidence": 0.9710085590680441
+    },
+    {
+      "text": "O(n)",
+      "polygon": [
+        [
+          1789.0,
+          632.0
+        ],
+        [
+          1882.0,
+          632.0
+        ],
+        [
+          1882.0,
+          669.0
+        ],
+        [
+          1789.0,
+          669.0
+        ]
+      ],
+      "confidence": 0.9688687059614394
+    },
+    {
+      "text": "Recurrent",
+      "polygon": [
+        [
+          514.0,
+          634.0
+        ],
+        [
+          688.0,
+          634.0
+        ],
+        [
+          688.0,
+          664.0
+        ],
+        [
+          514.0,
+          664.0
+        ]
+      ],
+      "confidence": 0.9755304634571076
+    },
+    {
+      "text": "<math>O(k \\cdot n \\cdot d^2)</math>",
+      "polygon": [
+        [
+          1066.0,
+          676.0
+        ],
+        [
+          1289.0,
+          676.0
+        ],
+        [
+          1289.0,
+          715.0
+        ],
+        [
+          1066.0,
+          715.0
+        ]
+      ],
+      "confidence": 0.9846801051387081
+    },
+    {
+      "text": "Convolutional",
+      "polygon": [
+        [
+          514.0,
+          679.0
+        ],
+        [
+          760.0,
+          679.0
+        ],
+        [
+          760.0,
+          711.0
+        ],
+        [
+          514.0,
+          711.0
+        ]
+      ],
+      "confidence": 0.9776087062699454
+    },
+    {
+      "text": "O(1)",
+      "polygon": [
+        [
+          1457.0,
+          680.0
+        ],
+        [
+          1542.0,
+          680.0
+        ],
+        [
+          1542.0,
+          715.0
+        ],
+        [
+          1457.0,
+          715.0
+        ]
+      ],
+      "confidence": 0.9376115798950195
+    },
+    {
+      "text": "<math>O(log_k(n))</math>",
+      "polygon": [
+        [
+          1734.0,
+          680.0
+        ],
+        [
+          1938.0,
+          680.0
+        ],
+        [
+          1938.0,
+          717.0
+        ],
+        [
+          1734.0,
+          717.0
+        ]
+      ],
+      "confidence": 0.9754153490066528
+    },
+    {
+      "text": "<math>O(r \\cdot n \\cdot d)</math>",
+      "polygon": [
+        [
+          1079.0,
+          726.0
+        ],
+        [
+          1281.0,
+          726.0
+        ],
+        [
+          1281.0,
+          761.0
+        ],
+        [
+          1079.0,
+          761.0
+        ]
+      ],
+      "confidence": 0.9856066966056823
+    },
+    {
+      "text": "O(1)",
+      "polygon": [
+        [
+          1457.0,
+          726.0
+        ],
+        [
+          1542.0,
+          726.0
+        ],
+        [
+          1542.0,
+          762.0
+        ],
+        [
+          1457.0,
+          762.0
+        ]
+      ],
+      "confidence": 0.9403433468606737
+    },
+    {
+      "text": "Self-Attention (restricted)",
+      "polygon": [
+        [
+          516.0,
+          726.0
+        ],
+        [
+          956.0,
+          726.0
+        ],
+        [
+          956.0,
+          759.0
+        ],
+        [
+          516.0,
+          759.0
+        ]
+      ],
+      "confidence": 0.9947332698723366
+    },
+    {
+      "text": "O(n/r)",
+      "polygon": [
+        [
+          1768.0,
+          727.0
+        ],
+        [
+          1904.0,
+          727.0
+        ],
+        [
+          1904.0,
+          762.0
+        ],
+        [
+          1768.0,
+          762.0
+        ]
+      ],
+      "confidence": 0.9784900979562239
+    },
+    {
+      "text": "3.5",
+      "polygon": [
+        [
+          446.0,
+          893.0
+        ],
+        [
+          512.0,
+          893.0
+        ],
+        [
+          512.0,
+          926.0
+        ],
+        [
+          446.0,
+          926.0
+        ]
+      ],
+      "confidence": 0.6967006027698517
+    },
+    {
+      "text": "<b>Positional Encoding</b>",
+      "polygon": [
+        [
+          524.0,
+          893.0
+        ],
+        [
+          905.0,
+          893.0
+        ],
+        [
+          905.0,
+          928.0
+        ],
+        [
+          524.0,
+          928.0
+        ]
+      ],
+      "confidence": 0.9793270437613778
+    },
+    {
+      "text": "Since our model contains no recurrence and no convolution, in order for the model to make use of the",
+      "polygon": [
+        [
+          446.0,
+          975.0
+        ],
+        [
+          2108.0,
+          975.0
+        ],
+        [
+          2108.0,
+          1011.0
+        ],
+        [
+          446.0,
+          1011.0
+        ]
+      ],
+      "confidence": 0.9998874524060417
+    },
+    {
+      "text": "order of the sequence, we must inject some information about the relative or absolute position of the",
+      "polygon": [
+        [
+          446.0,
+          1021.0
+        ],
+        [
+          2105.0,
+          1021.0
+        ],
+        [
+          2105.0,
+          1057.0
+        ],
+        [
+          446.0,
+          1057.0
+        ]
+      ],
+      "confidence": 0.9998674971386067
+    },
+    {
+      "text": "tokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the",
+      "polygon": [
+        [
+          446.0,
+          1066.0
+        ],
+        [
+          2108.0,
+          1066.0
+        ],
+        [
+          2108.0,
+          1103.0
+        ],
+        [
+          446.0,
+          1103.0
+        ]
+      ],
+      "confidence": 0.9995224301261131
+    },
+    {
+      "text": "bottoms of the encoder and decoder stacks. The positional encodings have the same dimension <math>d_{\\text{model}}</math>",
+      "polygon": [
+        [
+          446.0,
+          1112.0
+        ],
+        [
+          2101.0,
+          1112.0
+        ],
+        [
+          2101.0,
+          1148.0
+        ],
+        [
+          446.0,
+          1148.0
+        ]
+      ],
+      "confidence": 0.9958093118878593
+    },
+    {
+      "text": "as the embeddings, so that the two can be summed. There are many choices of positional encodings,",
+      "polygon": [
+        [
+          446.0,
+          1156.0
+        ],
+        [
+          2105.0,
+          1156.0
+        ],
+        [
+          2105.0,
+          1192.0
+        ],
+        [
+          446.0,
+          1192.0
+        ]
+      ],
+      "confidence": 0.9997346467441983
+    },
+    {
+      "text": "learned and fixed [9].",
+      "polygon": [
+        [
+          444.0,
+          1203.0
+        ],
+        [
+          809.0,
+          1203.0
+        ],
+        [
+          809.0,
+          1238.0
+        ],
+        [
+          444.0,
+          1238.0
+        ]
+      ],
+      "confidence": 0.9957434659202894
+    },
+    {
+      "text": "In this work, we use sine and cosine functions of different frequencies:",
+      "polygon": [
+        [
+          446.0,
+          1272.0
+        ],
+        [
+          1629.0,
+          1270.0
+        ],
+        [
+          1630.0,
+          1305.0
+        ],
+        [
+          446.0,
+          1308.0
+        ]
+      ],
+      "confidence": 0.9999109007216789
+    },
+    {
+      "text": "<math>PE_{(pos,2i)} = sin(pos/10000^{2i/d_{\\text{model}}})</math><br>\n<math>PE_{(pos,2i+1)} = cos(pos/10000^{2i/d_{\\text{model}}})</math>",
+      "polygon": [
+        [
+          918.0,
+          1407.0
+        ],
+        [
+          1611.0,
+          1394.0
+        ],
+        [
+          1621.0,
+          1516.0
+        ],
+        [
+          927.0,
+          1529.0
+        ]
+      ],
+      "confidence": 0.983964659338412
+    },
+    {
+      "text": "where <math>pos</math> is the position and i is the dimension. That is, each dimension of the positional encoding",
+      "polygon": [
+        [
+          444.0,
+          1573.0
+        ],
+        [
+          2108.0,
+          1573.0
+        ],
+        [
+          2108.0,
+          1609.0
+        ],
+        [
+          444.0,
+          1609.0
+        ]
+      ],
+      "confidence": 0.9891900227183388
+    },
+    {
+      "text": "corresponds to a sinusoid. The wavelengths form a geometric progression from <math>2\\pi</math> to <math>10000 \\cdot 2\\pi</math>. We",
+      "polygon": [
+        [
+          443.0,
+          1620.0
+        ],
+        [
+          2107.0,
+          1617.0
+        ],
+        [
+          2108.0,
+          1654.0
+        ],
+        [
+          444.0,
+          1657.0
+        ]
+      ],
+      "confidence": 0.9908703618815967
+    },
+    {
+      "text": "chose this function because we hypothesized it would allow the model to easily learn to attend by",
+      "polygon": [
+        [
+          446.0,
+          1664.0
+        ],
+        [
+          2107.0,
+          1664.0
+        ],
+        [
+          2107.0,
+          1700.0
+        ],
+        [
+          446.0,
+          1700.0
+        ]
+      ],
+      "confidence": 0.9996705855986084
+    },
+    {
+      "text": "relative positions, since for any fixed offset k, <math>PE_{pos+k}</math> can be represented as a linear function of",
+      "polygon": [
+        [
+          444.0,
+          1710.0
+        ],
+        [
+          2110.0,
+          1710.0
+        ],
+        [
+          2110.0,
+          1748.0
+        ],
+        [
+          444.0,
+          1748.0
+        ]
+      ],
+      "confidence": 0.9984641202070095
+    },
+    {
+      "text": "<math>PE_{pos}</math>.",
+      "polygon": [
+        [
+          446.0,
+          1757.0
+        ],
+        [
+          582.0,
+          1757.0
+        ],
+        [
+          582.0,
+          1794.0
+        ],
+        [
+          446.0,
+          1794.0
+        ]
+      ],
+      "confidence": 0.981685072183609
+    },
+    {
+      "text": "We also experimented with using learned positional embeddings [9] instead, and found that the two",
+      "polygon": [
+        [
+          446.0,
+          1822.0
+        ],
+        [
+          2110.0,
+          1825.0
+        ],
+        [
+          2110.0,
+          1862.0
+        ],
+        [
+          446.0,
+          1859.0
+        ]
+      ],
+      "confidence": 0.9997723975566902
+    },
+    {
+      "text": "versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version",
+      "polygon": [
+        [
+          446.0,
+          1869.0
+        ],
+        [
+          2108.0,
+          1869.0
+        ],
+        [
+          2108.0,
+          1905.0
+        ],
+        [
+          446.0,
+          1905.0
+        ]
+      ],
+      "confidence": 0.9984191487533878
+    },
+    {
+      "text": "because it may allow the model to extrapolate to sequence lengths longer than the ones encountered",
+      "polygon": [
+        [
+          446.0,
+          1915.0
+        ],
+        [
+          2108.0,
+          1915.0
+        ],
+        [
+          2108.0,
+          1951.0
+        ],
+        [
+          446.0,
+          1951.0
+        ]
+      ],
+      "confidence": 0.9997937774658203
+    },
+    {
+      "text": "during training.",
+      "polygon": [
+        [
+          446.0,
+          1962.0
+        ],
+        [
+          709.0,
+          1962.0
+        ],
+        [
+          709.0,
+          1997.0
+        ],
+        [
+          446.0,
+          1997.0
+        ]
+      ],
+      "confidence": 0.998191214270062
+    },
+    {
+      "text": "Why Self-Attention",
+      "polygon": [
+        [
+          520.0,
+          2074.0
+        ],
+        [
+          945.0,
+          2074.0
+        ],
+        [
+          945.0,
+          2115.0
+        ],
+        [
+          520.0,
+          2115.0
+        ]
+      ],
+      "confidence": 0.9723037242889404
+    },
+    {
+      "text": "4",
+      "polygon": [
+        [
+          448.0,
+          2077.0
+        ],
+        [
+          480.0,
+          2077.0
+        ],
+        [
+          480.0,
+          2112.0
+        ],
+        [
+          448.0,
+          2112.0
+        ]
+      ],
+      "confidence": 0.9455533623695374
+    },
+    {
+      "text": "In this section we compare various aspects of self-attention layers to the recurrent and convolu-",
+      "polygon": [
+        [
+          446.0,
+          2173.0
+        ],
+        [
+          2112.0,
+          2173.0
+        ],
+        [
+          2112.0,
+          2210.0
+        ],
+        [
+          446.0,
+          2210.0
+        ]
+      ],
+      "confidence": 0.9998985239953706
+    },
+    {
+      "text": "tional layers commonly used for mapping one variable-length sequence of symbol representations",
+      "polygon": [
+        [
+          446.0,
+          2218.0
+        ],
+        [
+          2105.0,
+          2218.0
+        ],
+        [
+          2105.0,
+          2255.0
+        ],
+        [
+          446.0,
+          2255.0
+        ]
+      ],
+      "confidence": 0.9998339681575695
+    },
+    {
+      "text": "<math>(x_1,...,x_n)</math> to another sequence of equal length <math>(z_1,...,z_n)</math>, with <math>x_i,z_i\\in\\mathbb{R}^d</math>, such as a hidden",
+      "polygon": [
+        [
+          452.0,
+          2263.0
+        ],
+        [
+          2110.0,
+          2263.0
+        ],
+        [
+          2110.0,
+          2302.0
+        ],
+        [
+          452.0,
+          2302.0
+        ]
+      ],
+      "confidence": 0.9958111678852755
+    },
+    {
+      "text": "layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we",
+      "polygon": [
+        [
+          446.0,
+          2311.0
+        ],
+        [
+          2108.0,
+          2311.0
+        ],
+        [
+          2108.0,
+          2347.0
+        ],
+        [
+          446.0,
+          2347.0
+        ]
+      ],
+      "confidence": 0.999676093751309
+    },
+    {
+      "text": "consider three desiderata.",
+      "polygon": [
+        [
+          446.0,
+          2357.0
+        ],
+        [
+          873.0,
+          2357.0
+        ],
+        [
+          873.0,
+          2389.0
+        ],
+        [
+          446.0,
+          2389.0
+        ]
+      ],
+      "confidence": 0.9988482594490051
+    },
+    {
+      "text": "One is the total computational complexity per layer. Another is the amount of computation that can",
+      "polygon": [
+        [
+          444.0,
+          2423.0
+        ],
+        [
+          2110.0,
+          2423.0
+        ],
+        [
+          2110.0,
+          2460.0
+        ],
+        [
+          444.0,
+          2460.0
+        ]
+      ],
+      "confidence": 0.9998968571424485
+    },
+    {
+      "text": "be parallelized, as measured by the minimum number of sequential operations required.",
+      "polygon": [
+        [
+          446.0,
+          2468.0
+        ],
+        [
+          1910.0,
+          2468.0
+        ],
+        [
+          1910.0,
+          2505.0
+        ],
+        [
+          446.0,
+          2505.0
+        ]
+      ],
+      "confidence": 0.9999318348950353
+    },
+    {
+      "text": "The third is the path length between long-range dependencies in the network. Learning long-range",
+      "polygon": [
+        [
+          446.0,
+          2538.0
+        ],
+        [
+          2110.0,
+          2536.0
+        ],
+        [
+          2110.0,
+          2573.0
+        ],
+        [
+          446.0,
+          2576.0
+        ]
+      ],
+      "confidence": 0.9997258855372059
+    },
+    {
+      "text": "dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the",
+      "polygon": [
+        [
+          446.0,
+          2582.0
+        ],
+        [
+          2110.0,
+          2582.0
+        ],
+        [
+          2110.0,
+          2619.0
+        ],
+        [
+          446.0,
+          2619.0
+        ]
+      ],
+      "confidence": 0.9998830918109778
+    },
+    {
+      "text": "ability to learn such dependencies is the length of the paths forward and backward signals have to",
+      "polygon": [
+        [
+          446.0,
+          2626.0
+        ],
+        [
+          2110.0,
+          2626.0
+        ],
+        [
+          2110.0,
+          2663.0
+        ],
+        [
+          446.0,
+          2663.0
+        ]
+      ],
+      "confidence": 0.9999100112915039
+    },
+    {
+      "text": "traverse in the network. The shorter these paths between any combination of positions in the input",
+      "polygon": [
+        [
+          446.0,
+          2672.0
+        ],
+        [
+          2112.0,
+          2672.0
+        ],
+        [
+          2112.0,
+          2710.0
+        ],
+        [
+          446.0,
+          2710.0
+        ]
+      ],
+      "confidence": 0.9998552268743515
+    },
+    {
+      "text": "and output sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare",
+      "polygon": [
+        [
+          446.0,
+          2717.0
+        ],
+        [
+          2110.0,
+          2717.0
+        ],
+        [
+          2110.0,
+          2755.0
+        ],
+        [
+          446.0,
+          2755.0
+        ]
+      ],
+      "confidence": 0.9993512772097446
+    },
+    {
+      "text": "the maximum path length between any two input and output positions in networks composed of the",
+      "polygon": [
+        [
+          446.0,
+          2762.0
+        ],
+        [
+          2110.0,
+          2762.0
+        ],
+        [
+          2110.0,
+          2800.0
+        ],
+        [
+          446.0,
+          2800.0
+        ]
+      ],
+      "confidence": 0.9999318302919468
+    },
+    {
+      "text": "different layer types.",
+      "polygon": [
+        [
+          446.0,
+          2809.0
+        ],
+        [
+          799.0,
+          2809.0
+        ],
+        [
+          799.0,
+          2845.0
+        ],
+        [
+          446.0,
+          2845.0
+        ]
+      ],
+      "confidence": 0.9990975707769394
+    },
+    {
+      "text": "As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially",
+      "polygon": [
+        [
+          444.0,
+          2877.0
+        ],
+        [
+          2108.0,
+          2877.0
+        ],
+        [
+          2108.0,
+          2915.0
+        ],
+        [
+          444.0,
+          2915.0
+        ]
+      ],
+      "confidence": 0.9997588897419867
+    },
+    {
+      "text": "executed operations, whereas a recurrent layer requires <math>O(n)</math> sequential operations. In terms of",
+      "polygon": [
+        [
+          446.0,
+          2923.0
+        ],
+        [
+          2110.0,
+          2923.0
+        ],
+        [
+          2110.0,
+          2962.0
+        ],
+        [
+          446.0,
+          2962.0
+        ]
+      ],
+      "confidence": 0.9995021164417267
+    },
+    {
+      "text": "computational complexity, self-attention layers are faster than recurrent layers when the sequence",
+      "polygon": [
+        [
+          446.0,
+          2969.0
+        ],
+        [
+          2108.0,
+          2969.0
+        ],
+        [
+          2108.0,
+          3006.0
+        ],
+        [
+          446.0,
+          3006.0
+        ]
+      ],
+      "confidence": 0.9999215161800384
+    },
+    {
+      "text": "6",
+      "polygon": [
+        [
+          1258.0,
+          3096.0
+        ],
+        [
+          1292.0,
+          3096.0
+        ],
+        [
+          1292.0,
+          3129.0
+        ],
+        [
+          1258.0,
+          3129.0
+        ]
+      ],
+      "confidence": 0.9585228264331818
+    }
+  ]
+}

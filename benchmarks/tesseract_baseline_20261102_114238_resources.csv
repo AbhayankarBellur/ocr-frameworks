@@ -1,0 +1,2 @@
+timestamp_utc,elapsed_s,system_cpu_percent,process_tree_cpu_percent,process_tree_ram_mb,process_tree_read_mb,process_tree_write_mb,gpu_util_percent,gpu_memory_used_mb
+2026-11-02T06:12:40.081404+00:00,1.58,5.5,0,0.0,0.0,0.0,0,142.0

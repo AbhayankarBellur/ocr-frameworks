@@ -1,0 +1,5 @@
+{
+  "EquationProcessor_ocr_equations": false,
+  "EquationProcessor_disable_ocr": true,
+  "EquationProcessor_ocr_inline_math": false
+}

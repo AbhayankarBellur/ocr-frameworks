@@ -1,0 +1,1234 @@
+[
+  {
+    "text": "Output",
+    "confidence": 0.9999859929084778,
+    "bounding_box": [
+      [
+        1377,
+        298
+      ],
+      [
+        1496,
+        298
+      ],
+      [
+        1496,
+        341
+      ],
+      [
+        1377,
+        341
+      ]
+    ]
+  },
+  {
+    "text": "Probabilities",
+    "confidence": 0.9999935626983643,
+    "bounding_box": [
+      [
+        1339,
+        345
+      ],
+      [
+        1533,
+        345
+      ],
+      [
+        1533,
+        380
+      ],
+      [
+        1339,
+        380
+      ]
+    ]
+  },
+  {
+    "text": "Softmax",
+    "confidence": 0.999992311000824,
+    "bounding_box": [
+      [
+        1374,
+        429
+      ],
+      [
+        1496,
+        429
+      ],
+      [
+        1496,
+        464
+      ],
+      [
+        1374,
+        464
+      ]
+    ]
+  },
+  {
+    "text": "Linear",
+    "confidence": 0.9999971985816956,
+    "bounding_box": [
+      [
+        1391,
+        514
+      ],
+      [
+        1481,
+        514
+      ],
+      [
+        1481,
+        547
+      ],
+      [
+        1391,
+        547
+      ]
+    ]
+  },
+  {
+    "text": "Add & Norm",
+    "confidence": 0.9822949171066284,
+    "bounding_box": [
+      [
+        1347,
+        607
+      ],
+      [
+        1525,
+        607
+      ],
+      [
+        1525,
+        641
+      ],
+      [
+        1347,
+        641
+      ]
+    ]
+  },
+  {
+    "text": "Feed",
+    "confidence": 0.9999974966049194,
+    "bounding_box": [
+      [
+        1396,
+        658
+      ],
+      [
+        1476,
+        661
+      ],
+      [
+        1474,
+        699
+      ],
+      [
+        1395,
+        696
+      ]
+    ]
+  },
+  {
+    "text": "Forward",
+    "confidence": 0.9999980926513672,
+    "bounding_box": [
+      [
+        1375,
+        701
+      ],
+      [
+        1496,
+        701
+      ],
+      [
+        1496,
+        736
+      ],
+      [
+        1375,
+        736
+      ]
+    ]
+  },
+  {
+    "text": "Add & Norm",
+    "confidence": 0.9507652521133423,
+    "bounding_box": [
+      [
+        1346,
+        793
+      ],
+      [
+        1525,
+        795
+      ],
+      [
+        1525,
+        830
+      ],
+      [
+        1346,
+        828
+      ]
+    ]
+  },
+  {
+    "text": "Add & Norm",
+    "confidence": 0.9798687100410461,
+    "bounding_box": [
+      [
+        1022,
+        829
+      ],
+      [
+        1201,
+        829
+      ],
+      [
+        1201,
+        863
+      ],
+      [
+        1022,
+        863
+      ]
+    ]
+  },
+  {
+    "text": "Multi-Head",
+    "confidence": 0.9999901056289673,
+    "bounding_box": [
+      [
+        1357,
+        851
+      ],
+      [
+        1514,
+        851
+      ],
+      [
+        1514,
+        885
+      ],
+      [
+        1357,
+        885
+      ]
+    ]
+  },
+  {
+    "text": "Feed",
+    "confidence": 0.999997615814209,
+    "bounding_box": [
+      [
+        1072,
+        881
+      ],
+      [
+        1151,
+        881
+      ],
+      [
+        1151,
+        918
+      ],
+      [
+        1072,
+        918
+      ]
+    ]
+  },
+  {
+    "text": "Attention",
+    "confidence": 0.9999920725822449,
+    "bounding_box": [
+      [
+        1370,
+        889
+      ],
+      [
+        1500,
+        889
+      ],
+      [
+        1500,
+        924
+      ],
+      [
+        1370,
+        924
+      ]
+    ]
+  },
+  {
+    "text": "Forward",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1050,
+        920
+      ],
+      [
+        1170,
+        920
+      ],
+      [
+        1170,
+        956
+      ],
+      [
+        1050,
+        956
+      ]
+    ]
+  },
+  {
+    "text": "Nx",
+    "confidence": 0.8619130253791809,
+    "bounding_box": [
+      [
+        1641,
+        918
+      ],
+      [
+        1701,
+        918
+      ],
+      [
+        1701,
+        962
+      ],
+      [
+        1641,
+        962
+      ]
+    ]
+  },
+  {
+    "text": "Add & Norm",
+    "confidence": 0.9757601618766785,
+    "bounding_box": [
+      [
+        1347,
+        1015
+      ],
+      [
+        1525,
+        1015
+      ],
+      [
+        1525,
+        1049
+      ],
+      [
+        1347,
+        1049
+      ]
+    ]
+  },
+  {
+    "text": "Nx",
+    "confidence": 0.8823965787887573,
+    "bounding_box": [
+      [
+        837,
+        1031
+      ],
+      [
+        896,
+        1031
+      ],
+      [
+        896,
+        1076
+      ],
+      [
+        837,
+        1076
+      ]
+    ]
+  },
+  {
+    "text": "Add & Norm",
+    "confidence": 0.9695867300033569,
+    "bounding_box": [
+      [
+        1022,
+        1051
+      ],
+      [
+        1200,
+        1051
+      ],
+      [
+        1200,
+        1085
+      ],
+      [
+        1022,
+        1085
+      ]
+    ]
+  },
+  {
+    "text": "Masked",
+    "confidence": 0.9999935030937195,
+    "bounding_box": [
+      [
+        1377,
+        1067
+      ],
+      [
+        1493,
+        1067
+      ],
+      [
+        1493,
+        1102
+      ],
+      [
+        1377,
+        1102
+      ]
+    ]
+  },
+  {
+    "text": "Multi-Head",
+    "confidence": 0.9999896883964539,
+    "bounding_box": [
+      [
+        1032,
+        1101
+      ],
+      [
+        1189,
+        1103
+      ],
+      [
+        1189,
+        1140
+      ],
+      [
+        1032,
+        1137
+      ]
+    ]
+  },
+  {
+    "text": "Multi-Head",
+    "confidence": 0.9999893307685852,
+    "bounding_box": [
+      [
+        1357,
+        1107
+      ],
+      [
+        1514,
+        1107
+      ],
+      [
+        1514,
+        1142
+      ],
+      [
+        1357,
+        1142
+      ]
+    ]
+  },
+  {
+    "text": "Attention",
+    "confidence": 0.9999912977218628,
+    "bounding_box": [
+      [
+        1045,
+        1142
+      ],
+      [
+        1177,
+        1142
+      ],
+      [
+        1177,
+        1177
+      ],
+      [
+        1045,
+        1177
+      ]
+    ]
+  },
+  {
+    "text": "Attention",
+    "confidence": 0.9999926090240479,
+    "bounding_box": [
+      [
+        1376,
+        1146
+      ],
+      [
+        1505,
+        1146
+      ],
+      [
+        1505,
+        1178
+      ],
+      [
+        1376,
+        1178
+      ]
+    ]
+  },
+  {
+    "text": "Positional",
+    "confidence": 0.9999963641166687,
+    "bounding_box": [
+      [
+        815,
+        1291
+      ],
+      [
+        974,
+        1291
+      ],
+      [
+        974,
+        1330
+      ],
+      [
+        815,
+        1330
+      ]
+    ]
+  },
+  {
+    "text": "Positional",
+    "confidence": 0.9999960064888,
+    "bounding_box": [
+      [
+        1573,
+        1298
+      ],
+      [
+        1733,
+        1298
+      ],
+      [
+        1733,
+        1337
+      ],
+      [
+        1573,
+        1337
+      ]
+    ]
+  },
+  {
+    "text": "Encoding",
+    "confidence": 0.9999933242797852,
+    "bounding_box": [
+      [
+        813,
+        1333
+      ],
+      [
+        971,
+        1336
+      ],
+      [
+        971,
+        1379
+      ],
+      [
+        813,
+        1376
+      ]
+    ]
+  },
+  {
+    "text": "Encoding",
+    "confidence": 0.9999936819076538,
+    "bounding_box": [
+      [
+        1573,
+        1343
+      ],
+      [
+        1730,
+        1343
+      ],
+      [
+        1730,
+        1385
+      ],
+      [
+        1573,
+        1385
+      ]
+    ]
+  },
+  {
+    "text": "Input",
+    "confidence": 0.9994940757751465,
+    "bounding_box": [
+      [
+        1072,
+        1394
+      ],
+      [
+        1152,
+        1394
+      ],
+      [
+        1152,
+        1435
+      ],
+      [
+        1072,
+        1435
+      ]
+    ]
+  },
+  {
+    "text": "Output",
+    "confidence": 0.9999882578849792,
+    "bounding_box": [
+      [
+        1384,
+        1394
+      ],
+      [
+        1489,
+        1394
+      ],
+      [
+        1489,
+        1433
+      ],
+      [
+        1384,
+        1433
+      ]
+    ]
+  },
+  {
+    "text": "Embedding",
+    "confidence": 0.9999932050704956,
+    "bounding_box": [
+      [
+        1028,
+        1431
+      ],
+      [
+        1193,
+        1433
+      ],
+      [
+        1193,
+        1472
+      ],
+      [
+        1028,
+        1470
+      ]
+    ]
+  },
+  {
+    "text": "Embedding",
+    "confidence": 0.999993622303009,
+    "bounding_box": [
+      [
+        1352,
+        1432
+      ],
+      [
+        1518,
+        1434
+      ],
+      [
+        1518,
+        1473
+      ],
+      [
+        1352,
+        1471
+      ]
+    ]
+  },
+  {
+    "text": "Inputs",
+    "confidence": 0.9999611973762512,
+    "bounding_box": [
+      [
+        1056,
+        1555
+      ],
+      [
+        1164,
+        1555
+      ],
+      [
+        1164,
+        1598
+      ],
+      [
+        1056,
+        1598
+      ]
+    ]
+  },
+  {
+    "text": "Outputs",
+    "confidence": 0.9999831914901733,
+    "bounding_box": [
+      [
+        1368,
+        1555
+      ],
+      [
+        1504,
+        1555
+      ],
+      [
+        1504,
+        1597
+      ],
+      [
+        1368,
+        1597
+      ]
+    ]
+  },
+  {
+    "text": "(shifted right)",
+    "confidence": 0.9999922513961792,
+    "bounding_box": [
+      [
+        1332,
+        1601
+      ],
+      [
+        1538,
+        1601
+      ],
+      [
+        1538,
+        1642
+      ],
+      [
+        1332,
+        1642
+      ]
+    ]
+  },
+  {
+    "text": "Figure 1: The Transformer - model architecture.",
+    "confidence": 0.9973025918006897,
+    "bounding_box": [
+      [
+        872,
+        1685
+      ],
+      [
+        1674,
+        1685
+      ],
+      [
+        1674,
+        1725
+      ],
+      [
+        872,
+        1725
+      ]
+    ]
+  },
+  {
+    "text": "The Transformer follows this overall architecture using stacked self-attention and point-wise, fully",
+    "confidence": 0.9988000392913818,
+    "bounding_box": [
+      [
+        443,
+        1815
+      ],
+      [
+        2102,
+        1816
+      ],
+      [
+        2102,
+        1860
+      ],
+      [
+        443,
+        1859
+      ]
+    ]
+  },
+  {
+    "text": "connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1,",
+    "confidence": 0.9958922863006592,
+    "bounding_box": [
+      [
+        445,
+        1863
+      ],
+      [
+        2107,
+        1863
+      ],
+      [
+        2107,
+        1906
+      ],
+      [
+        445,
+        1906
+      ]
+    ]
+  },
+  {
+    "text": "respectively.",
+    "confidence": 0.9999987483024597,
+    "bounding_box": [
+      [
+        445,
+        1910
+      ],
+      [
+        656,
+        1910
+      ],
+      [
+        656,
+        1952
+      ],
+      [
+        445,
+        1952
+      ]
+    ]
+  },
+  {
+    "text": "3.1 Encoder and Decoder Stacks",
+    "confidence": 0.9984408020973206,
+    "bounding_box": [
+      [
+        446,
+        2008
+      ],
+      [
+        1056,
+        2008
+      ],
+      [
+        1056,
+        2049
+      ],
+      [
+        446,
+        2049
+      ]
+    ]
+  },
+  {
+    "text": "Encoder: The encoder is composed of a stack of N = 6 identical layers. Each layer has two",
+    "confidence": 0.9951171278953552,
+    "bounding_box": [
+      [
+        445,
+        2094
+      ],
+      [
+        2104,
+        2094
+      ],
+      [
+        2104,
+        2137
+      ],
+      [
+        445,
+        2137
+      ]
+    ]
+  },
+  {
+    "text": "sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-",
+    "confidence": 0.9995435476303101,
+    "bounding_box": [
+      [
+        445,
+        2140
+      ],
+      [
+        2108,
+        2140
+      ],
+      [
+        2108,
+        2183
+      ],
+      [
+        445,
+        2183
+      ]
+    ]
+  },
+  {
+    "text": "wise fully connected feed-forward network. We employ a residual connection [11] around each of",
+    "confidence": 0.9982153177261353,
+    "bounding_box": [
+      [
+        445,
+        2185
+      ],
+      [
+        2105,
+        2184
+      ],
+      [
+        2105,
+        2225
+      ],
+      [
+        445,
+        2226
+      ]
+    ]
+  },
+  {
+    "text": "the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is",
+    "confidence": 0.9971610903739929,
+    "bounding_box": [
+      [
+        445,
+        2231
+      ],
+      [
+        2103,
+        2231
+      ],
+      [
+        2103,
+        2274
+      ],
+      [
+        445,
+        2274
+      ]
+    ]
+  },
+  {
+    "text": "LayerNorm(x + Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer",
+    "confidence": 0.989232063293457,
+    "bounding_box": [
+      [
+        445,
+        2276
+      ],
+      [
+        2104,
+        2276
+      ],
+      [
+        2104,
+        2319
+      ],
+      [
+        445,
+        2319
+      ]
+    ]
+  },
+  {
+    "text": "itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding",
+    "confidence": 0.9971667528152466,
+    "bounding_box": [
+      [
+        444,
+        2320
+      ],
+      [
+        2103,
+        2322
+      ],
+      [
+        2103,
+        2365
+      ],
+      [
+        444,
+        2363
+      ]
+    ]
+  },
+  {
+    "text": "layers, produce outputs of dimension dmodel = 512.",
+    "confidence": 0.9991447329521179,
+    "bounding_box": [
+      [
+        444,
+        2367
+      ],
+      [
+        1301,
+        2365
+      ],
+      [
+        1301,
+        2409
+      ],
+      [
+        444,
+        2411
+      ]
+    ]
+  },
+  {
+    "text": "Decoder: The decoder is also composed of a stack of N = 6 identical layers. In addition to the two",
+    "confidence": 0.9862642288208008,
+    "bounding_box": [
+      [
+        443,
+        2461
+      ],
+      [
+        2104,
+        2462
+      ],
+      [
+        2104,
+        2505
+      ],
+      [
+        443,
+        2504
+      ]
+    ]
+  },
+  {
+    "text": "sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head",
+    "confidence": 0.9999040961265564,
+    "bounding_box": [
+      [
+        445,
+        2508
+      ],
+      [
+        2104,
+        2507
+      ],
+      [
+        2104,
+        2550
+      ],
+      [
+        445,
+        2551
+      ]
+    ]
+  },
+  {
+    "text": "attention over the output of the encoder stack. Similar to the encoder, we employ residual connections",
+    "confidence": 0.9958402514457703,
+    "bounding_box": [
+      [
+        445,
+        2555
+      ],
+      [
+        2102,
+        2555
+      ],
+      [
+        2102,
+        2595
+      ],
+      [
+        445,
+        2595
+      ]
+    ]
+  },
+  {
+    "text": "around each of the sub-layers, followed by layer normalization. We also modify the self-attention",
+    "confidence": 0.9999880194664001,
+    "bounding_box": [
+      [
+        445,
+        2599
+      ],
+      [
+        2104,
+        2599
+      ],
+      [
+        2104,
+        2642
+      ],
+      [
+        445,
+        2642
+      ]
+    ]
+  },
+  {
+    "text": "sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This",
+    "confidence": 0.9973897933959961,
+    "bounding_box": [
+      [
+        446,
+        2644
+      ],
+      [
+        2103,
+        2644
+      ],
+      [
+        2103,
+        2687
+      ],
+      [
+        446,
+        2687
+      ]
+    ]
+  },
+  {
+    "text": "masking, combined with fact that the output embeddings are offset by one position, ensures that the",
+    "confidence": 0.997871458530426,
+    "bounding_box": [
+      [
+        445,
+        2690
+      ],
+      [
+        2103,
+        2690
+      ],
+      [
+        2103,
+        2733
+      ],
+      [
+        445,
+        2733
+      ]
+    ]
+  },
+  {
+    "text": "predictions for position i can depend only on the known outputs at positions less than i.",
+    "confidence": 0.9977216124534607,
+    "bounding_box": [
+      [
+        444,
+        2735
+      ],
+      [
+        1904,
+        2734
+      ],
+      [
+        1904,
+        2778
+      ],
+      [
+        444,
+        2779
+      ]
+    ]
+  },
+  {
+    "text": "3.2 Attention",
+    "confidence": 0.9802894592285156,
+    "bounding_box": [
+      [
+        443,
+        2833
+      ],
+      [
+        714,
+        2833
+      ],
+      [
+        714,
+        2877
+      ],
+      [
+        443,
+        2877
+      ]
+    ]
+  },
+  {
+    "text": "An attention function can be described as mapping a query and a set of key-value pairs to an output,",
+    "confidence": 0.9953228831291199,
+    "bounding_box": [
+      [
+        445,
+        2922
+      ],
+      [
+        2107,
+        2922
+      ],
+      [
+        2107,
+        2965
+      ],
+      [
+        445,
+        2965
+      ]
+    ]
+  },
+  {
+    "text": "where the query, keys, values, and output are all vectors. The output is computed as a weighted sum",
+    "confidence": 0.9984909296035767,
+    "bounding_box": [
+      [
+        445,
+        2967
+      ],
+      [
+        2104,
+        2967
+      ],
+      [
+        2104,
+        3010
+      ],
+      [
+        445,
+        3010
+      ]
+    ]
+  },
+  {
+    "text": "3",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1259,
+        3090
+      ],
+      [
+        1288,
+        3090
+      ],
+      [
+        1288,
+        3131
+      ],
+      [
+        1259,
+        3131
+      ]
+    ]
+  }
+]

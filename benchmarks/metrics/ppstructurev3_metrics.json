@@ -1,0 +1,46 @@
+{
+  "framework": "PP-StructureV3",
+  "paddle_version": "3.2.0",
+  "paddleocr_version": "3.7.0",
+  "device": "CPU",
+  "initialization_time_seconds": 71.1789,
+  "pages_processed": 5,
+  "total_inference_time_seconds": 1653.3291,
+  "pages": [
+    {
+      "page": 1,
+      "inference_time_seconds": 226.1511,
+      "result_objects": 1,
+      "json_records": 1,
+      "markdown_characters": 2022
+    },
+    {
+      "page": 2,
+      "inference_time_seconds": 558.1684,
+      "result_objects": 1,
+      "json_records": 1,
+      "markdown_characters": 2832
+    },
+    {
+      "page": 3,
+      "inference_time_seconds": 447.1869,
+      "result_objects": 1,
+      "json_records": 1,
+      "markdown_characters": 4039
+    },
+    {
+      "page": 4,
+      "inference_time_seconds": 172.3511,
+      "result_objects": 1,
+      "json_records": 1,
+      "markdown_characters": 3858
+    },
+    {
+      "page": 5,
+      "inference_time_seconds": 249.4717,
+      "result_objects": 1,
+      "json_records": 1,
+      "markdown_characters": 3764
+    }
+  ]
+}

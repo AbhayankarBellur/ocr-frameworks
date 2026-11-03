@@ -1,0 +1,37 @@
+{
+  "input_pdf": "C:\\Users\\abhay\\tiny-inference-lab-ocr\\data\\native\\attention_is_all_you_need.pdf",
+  "pages": 5,
+  "elapsed_seconds": 0.1629,
+  "page_results": [
+    {
+      "page": 1,
+      "characters": 1905,
+      "words": 292,
+      "image_count": 1
+    },
+    {
+      "page": 2,
+      "characters": 2693,
+      "words": 396,
+      "image_count": 2
+    },
+    {
+      "page": 3,
+      "characters": 3797,
+      "words": 547,
+      "image_count": 0
+    },
+    {
+      "page": 4,
+      "characters": 3690,
+      "words": 536,
+      "image_count": 0
+    },
+    {
+      "page": 5,
+      "characters": 4412,
+      "words": 493,
+      "image_count": 0
+    }
+  ]
+}

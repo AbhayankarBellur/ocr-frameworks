@@ -1,0 +1,37 @@
+{
+  "framework": "Surya",
+  "version": "0.17.1",
+  "torch_version": "2.15.0+cpu",
+  "device": "CPU",
+  "initialization_time_seconds": 14.7379,
+  "pages_processed": 5,
+  "total_inference_time_seconds": 561.0377,
+  "total_recognized_lines": 406,
+  "pages": [
+    {
+      "page": 1,
+      "inference_time_seconds": 86.9452,
+      "recognized_lines": 58
+    },
+    {
+      "page": 2,
+      "inference_time_seconds": 120.3284,
+      "recognized_lines": 52
+    },
+    {
+      "page": 3,
+      "inference_time_seconds": 109.9119,
+      "recognized_lines": 63
+    },
+    {
+      "page": 4,
+      "inference_time_seconds": 109.1731,
+      "recognized_lines": 85
+    },
+    {
+      "page": 5,
+      "inference_time_seconds": 134.679,
+      "recognized_lines": 148
+    }
+  ]
+}

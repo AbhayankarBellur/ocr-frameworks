@@ -1,0 +1,1806 @@
+[
+  {
+    "text": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+    "confidence": 0.9927126169204712,
+    "bounding_box": [
+      [
+        445,
+        293
+      ],
+      [
+        2101,
+        293
+      ],
+      [
+        2101,
+        336
+      ],
+      [
+        445,
+        336
+      ]
+    ]
+  },
+  {
+    "text": "English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+    "confidence": 0.9995772242546082,
+    "bounding_box": [
+      [
+        445,
+        339
+      ],
+      [
+        2015,
+        340
+      ],
+      [
+        2015,
+        383
+      ],
+      [
+        445,
+        382
+      ]
+    ]
+  },
+  {
+    "text": "BLEU",
+    "confidence": 0.9999784231185913,
+    "bounding_box": [
+      [
+        1291,
+        402
+      ],
+      [
+        1407,
+        402
+      ],
+      [
+        1407,
+        446
+      ],
+      [
+        1291,
+        446
+      ]
+    ]
+  },
+  {
+    "text": "Training Cost (FLOPs)",
+    "confidence": 0.9999901652336121,
+    "bounding_box": [
+      [
+        1594,
+        404
+      ],
+      [
+        1982,
+        404
+      ],
+      [
+        1982,
+        449
+      ],
+      [
+        1594,
+        449
+      ]
+    ]
+  },
+  {
+    "text": "Model",
+    "confidence": 0.9999943971633911,
+    "bounding_box": [
+      [
+        565,
+        440
+      ],
+      [
+        681,
+        440
+      ],
+      [
+        681,
+        480
+      ],
+      [
+        565,
+        480
+      ]
+    ]
+  },
+  {
+    "text": "EN-DE",
+    "confidence": 0.9999710321426392,
+    "bounding_box": [
+      [
+        1198,
+        472
+      ],
+      [
+        1331,
+        472
+      ],
+      [
+        1331,
+        511
+      ],
+      [
+        1198,
+        511
+      ]
+    ]
+  },
+  {
+    "text": "EN-FR",
+    "confidence": 0.9999893307685852,
+    "bounding_box": [
+      [
+        1372,
+        472
+      ],
+      [
+        1498,
+        472
+      ],
+      [
+        1498,
+        511
+      ],
+      [
+        1372,
+        511
+      ]
+    ]
+  },
+  {
+    "text": "EN-DE",
+    "confidence": 0.9999873042106628,
+    "bounding_box": [
+      [
+        1609,
+        470
+      ],
+      [
+        1742,
+        470
+      ],
+      [
+        1742,
+        512
+      ],
+      [
+        1609,
+        512
+      ]
+    ]
+  },
+  {
+    "text": "EN-FR",
+    "confidence": 0.9999853372573853,
+    "bounding_box": [
+      [
+        1827,
+        471
+      ],
+      [
+        1955,
+        471
+      ],
+      [
+        1955,
+        513
+      ],
+      [
+        1827,
+        513
+      ]
+    ]
+  },
+  {
+    "text": "ByteNet [18]",
+    "confidence": 0.9998969435691833,
+    "bounding_box": [
+      [
+        566,
+        521
+      ],
+      [
+        789,
+        521
+      ],
+      [
+        789,
+        563
+      ],
+      [
+        566,
+        563
+      ]
+    ]
+  },
+  {
+    "text": "23.75",
+    "confidence": 0.9999977946281433,
+    "bounding_box": [
+      [
+        1213,
+        519
+      ],
+      [
+        1314,
+        519
+      ],
+      [
+        1314,
+        559
+      ],
+      [
+        1213,
+        559
+      ]
+    ]
+  },
+  {
+    "text": "Deep-Att + PosUnk [39]",
+    "confidence": 0.9800678491592407,
+    "bounding_box": [
+      [
+        565,
+        568
+      ],
+      [
+        978,
+        566
+      ],
+      [
+        978,
+        608
+      ],
+      [
+        565,
+        610
+      ]
+    ]
+  },
+  {
+    "text": "39.2",
+    "confidence": 0.9999989867210388,
+    "bounding_box": [
+      [
+        1395,
+        563
+      ],
+      [
+        1479,
+        563
+      ],
+      [
+        1479,
+        608
+      ],
+      [
+        1395,
+        608
+      ]
+    ]
+  },
+  {
+    "text": "1.0 · 1020",
+    "confidence": 0.9898936152458191,
+    "bounding_box": [
+      [
+        1807,
+        559
+      ],
+      [
+        1974,
+        554
+      ],
+      [
+        1976,
+        605
+      ],
+      [
+        1809,
+        610
+      ]
+    ]
+  },
+  {
+    "text": "GNMT + RL [38]",
+    "confidence": 0.9926162362098694,
+    "bounding_box": [
+      [
+        566,
+        613
+      ],
+      [
+        869,
+        615
+      ],
+      [
+        868,
+        657
+      ],
+      [
+        566,
+        655
+      ]
+    ]
+  },
+  {
+    "text": "24.6",
+    "confidence": 0.9999986886978149,
+    "bounding_box": [
+      [
+        1222,
+        611
+      ],
+      [
+        1308,
+        611
+      ],
+      [
+        1308,
+        656
+      ],
+      [
+        1222,
+        656
+      ]
+    ]
+  },
+  {
+    "text": "39.92",
+    "confidence": 0.9999992251396179,
+    "bounding_box": [
+      [
+        1387,
+        613
+      ],
+      [
+        1487,
+        613
+      ],
+      [
+        1487,
+        654
+      ],
+      [
+        1387,
+        654
+      ]
+    ]
+  },
+  {
+    "text": "2.3 · 1019",
+    "confidence": 0.995881199836731,
+    "bounding_box": [
+      [
+        1590,
+        607
+      ],
+      [
+        1758,
+        603
+      ],
+      [
+        1759,
+        653
+      ],
+      [
+        1592,
+        657
+      ]
+    ]
+  },
+  {
+    "text": "1.4 · 1020",
+    "confidence": 0.9521066546440125,
+    "bounding_box": [
+      [
+        1806,
+        608
+      ],
+      [
+        1974,
+        602
+      ],
+      [
+        1976,
+        652
+      ],
+      [
+        1808,
+        658
+      ]
+    ]
+  },
+  {
+    "text": "ConvS2S [9]",
+    "confidence": 0.9999399185180664,
+    "bounding_box": [
+      [
+        565,
+        659
+      ],
+      [
+        784,
+        659
+      ],
+      [
+        784,
+        704
+      ],
+      [
+        565,
+        704
+      ]
+    ]
+  },
+  {
+    "text": "25.16",
+    "confidence": 0.9999988675117493,
+    "bounding_box": [
+      [
+        1213,
+        659
+      ],
+      [
+        1317,
+        659
+      ],
+      [
+        1317,
+        702
+      ],
+      [
+        1213,
+        702
+      ]
+    ]
+  },
+  {
+    "text": "40.46",
+    "confidence": 0.9999991655349731,
+    "bounding_box": [
+      [
+        1385,
+        659
+      ],
+      [
+        1488,
+        659
+      ],
+      [
+        1488,
+        702
+      ],
+      [
+        1385,
+        702
+      ]
+    ]
+  },
+  {
+    "text": "9.6 · 1018",
+    "confidence": 0.9705101847648621,
+    "bounding_box": [
+      [
+        1589,
+        656
+      ],
+      [
+        1757,
+        650
+      ],
+      [
+        1759,
+        699
+      ],
+      [
+        1591,
+        705
+      ]
+    ]
+  },
+  {
+    "text": "1.5 · 1020",
+    "confidence": 0.9660071134567261,
+    "bounding_box": [
+      [
+        1807,
+        656
+      ],
+      [
+        1974,
+        649
+      ],
+      [
+        1976,
+        699
+      ],
+      [
+        1809,
+        706
+      ]
+    ]
+  },
+  {
+    "text": "MoE [32]",
+    "confidence": 0.9990547299385071,
+    "bounding_box": [
+      [
+        564,
+        708
+      ],
+      [
+        734,
+        708
+      ],
+      [
+        734,
+        753
+      ],
+      [
+        564,
+        753
+      ]
+    ]
+  },
+  {
+    "text": "26.03",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1213,
+        708
+      ],
+      [
+        1314,
+        708
+      ],
+      [
+        1314,
+        749
+      ],
+      [
+        1213,
+        749
+      ]
+    ]
+  },
+  {
+    "text": "40.56",
+    "confidence": 0.9999990463256836,
+    "bounding_box": [
+      [
+        1385,
+        707
+      ],
+      [
+        1489,
+        707
+      ],
+      [
+        1489,
+        750
+      ],
+      [
+        1385,
+        750
+      ]
+    ]
+  },
+  {
+    "text": "2.0 · 1019",
+    "confidence": 0.979809582233429,
+    "bounding_box": [
+      [
+        1589,
+        703
+      ],
+      [
+        1757,
+        700
+      ],
+      [
+        1758,
+        749
+      ],
+      [
+        1590,
+        752
+      ]
+    ]
+  },
+  {
+    "text": "1.2 · 1020",
+    "confidence": 0.9778674244880676,
+    "bounding_box": [
+      [
+        1806,
+        703
+      ],
+      [
+        1974,
+        698
+      ],
+      [
+        1976,
+        748
+      ],
+      [
+        1808,
+        753
+      ]
+    ]
+  },
+  {
+    "text": "Deep-Att + PosUnk Ensemble [39]",
+    "confidence": 0.987517237663269,
+    "bounding_box": [
+      [
+        565,
+        762
+      ],
+      [
+        1152,
+        762
+      ],
+      [
+        1152,
+        803
+      ],
+      [
+        565,
+        803
+      ]
+    ]
+  },
+  {
+    "text": "40.4",
+    "confidence": 0.9999986886978149,
+    "bounding_box": [
+      [
+        1396,
+        760
+      ],
+      [
+        1479,
+        760
+      ],
+      [
+        1479,
+        801
+      ],
+      [
+        1396,
+        801
+      ]
+    ]
+  },
+  {
+    "text": "8.0 · 1020",
+    "confidence": 0.9946238398551941,
+    "bounding_box": [
+      [
+        1807,
+        758
+      ],
+      [
+        1974,
+        752
+      ],
+      [
+        1976,
+        798
+      ],
+      [
+        1809,
+        804
+      ]
+    ]
+  },
+  {
+    "text": "GNMT + RL Ensemble [38]",
+    "confidence": 0.9900966286659241,
+    "bounding_box": [
+      [
+        566,
+        808
+      ],
+      [
+        1042,
+        810
+      ],
+      [
+        1042,
+        850
+      ],
+      [
+        566,
+        848
+      ]
+    ]
+  },
+  {
+    "text": "26.30",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1214,
+        808
+      ],
+      [
+        1315,
+        808
+      ],
+      [
+        1315,
+        849
+      ],
+      [
+        1214,
+        849
+      ]
+    ]
+  },
+  {
+    "text": "41.16",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1385,
+        807
+      ],
+      [
+        1488,
+        807
+      ],
+      [
+        1488,
+        850
+      ],
+      [
+        1385,
+        850
+      ]
+    ]
+  },
+  {
+    "text": "1.8 · 1020",
+    "confidence": 0.958023726940155,
+    "bounding_box": [
+      [
+        1590,
+        803
+      ],
+      [
+        1758,
+        797
+      ],
+      [
+        1760,
+        848
+      ],
+      [
+        1592,
+        854
+      ]
+    ]
+  },
+  {
+    "text": "1.1 · 1021",
+    "confidence": 0.9339628219604492,
+    "bounding_box": [
+      [
+        1806,
+        803
+      ],
+      [
+        1974,
+        799
+      ],
+      [
+        1976,
+        848
+      ],
+      [
+        1808,
+        852
+      ]
+    ]
+  },
+  {
+    "text": "ConvS2S Ensemble [9]",
+    "confidence": 0.9972555041313171,
+    "bounding_box": [
+      [
+        567,
+        857
+      ],
+      [
+        957,
+        857
+      ],
+      [
+        957,
+        898
+      ],
+      [
+        567,
+        898
+      ]
+    ]
+  },
+  {
+    "text": "26.36",
+    "confidence": 0.9999982714653015,
+    "bounding_box": [
+      [
+        1212,
+        854
+      ],
+      [
+        1317,
+        854
+      ],
+      [
+        1317,
+        897
+      ],
+      [
+        1212,
+        897
+      ]
+    ]
+  },
+  {
+    "text": "41.29",
+    "confidence": 0.9999986886978149,
+    "bounding_box": [
+      [
+        1385,
+        853
+      ],
+      [
+        1488,
+        853
+      ],
+      [
+        1488,
+        896
+      ],
+      [
+        1385,
+        896
+      ]
+    ]
+  },
+  {
+    "text": "7.7 · 1019",
+    "confidence": 0.9881682395935059,
+    "bounding_box": [
+      [
+        1589,
+        851
+      ],
+      [
+        1758,
+        845
+      ],
+      [
+        1760,
+        895
+      ],
+      [
+        1591,
+        901
+      ]
+    ]
+  },
+  {
+    "text": "1.2 · 1021",
+    "confidence": 0.9918866157531738,
+    "bounding_box": [
+      [
+        1806,
+        853
+      ],
+      [
+        1972,
+        847
+      ],
+      [
+        1974,
+        894
+      ],
+      [
+        1808,
+        900
+      ]
+    ]
+  },
+  {
+    "text": "Transformer (base model)",
+    "confidence": 0.9999907612800598,
+    "bounding_box": [
+      [
+        567,
+        911
+      ],
+      [
+        1001,
+        911
+      ],
+      [
+        1001,
+        952
+      ],
+      [
+        567,
+        952
+      ]
+    ]
+  },
+  {
+    "text": "27.3",
+    "confidence": 0.9999983310699463,
+    "bounding_box": [
+      [
+        1222,
+        909
+      ],
+      [
+        1304,
+        909
+      ],
+      [
+        1304,
+        951
+      ],
+      [
+        1222,
+        951
+      ]
+    ]
+  },
+  {
+    "text": "38.1",
+    "confidence": 0.9999991655349731,
+    "bounding_box": [
+      [
+        1396,
+        909
+      ],
+      [
+        1476,
+        909
+      ],
+      [
+        1476,
+        951
+      ],
+      [
+        1396,
+        951
+      ]
+    ]
+  },
+  {
+    "text": "3.3 · 1018",
+    "confidence": 0.9169519543647766,
+    "bounding_box": [
+      [
+        1690,
+        907
+      ],
+      [
+        1883,
+        901
+      ],
+      [
+        1884,
+        949
+      ],
+      [
+        1691,
+        955
+      ]
+    ]
+  },
+  {
+    "text": "Transformer (big)",
+    "confidence": 0.9999821782112122,
+    "bounding_box": [
+      [
+        565,
+        956
+      ],
+      [
+        868,
+        958
+      ],
+      [
+        867,
+        1002
+      ],
+      [
+        565,
+        1000
+      ]
+    ]
+  },
+  {
+    "text": "28.4",
+    "confidence": 0.9999990463256836,
+    "bounding_box": [
+      [
+        1223,
+        956
+      ],
+      [
+        1307,
+        956
+      ],
+      [
+        1307,
+        998
+      ],
+      [
+        1223,
+        998
+      ]
+    ]
+  },
+  {
+    "text": "41.8",
+    "confidence": 0.9999984502792358,
+    "bounding_box": [
+      [
+        1396,
+        956
+      ],
+      [
+        1478,
+        956
+      ],
+      [
+        1478,
+        998
+      ],
+      [
+        1396,
+        998
+      ]
+    ]
+  },
+  {
+    "text": "2.3 · 1019",
+    "confidence": 0.972248911857605,
+    "bounding_box": [
+      [
+        1700,
+        953
+      ],
+      [
+        1870,
+        948
+      ],
+      [
+        1871,
+        998
+      ],
+      [
+        1701,
+        1003
+      ]
+    ]
+  },
+  {
+    "text": "Residual Dropout We apply dropout [33] to the output of each sub-layer, before it is added to the",
+    "confidence": 0.9903193116188049,
+    "bounding_box": [
+      [
+        446,
+        1135
+      ],
+      [
+        2102,
+        1135
+      ],
+      [
+        2102,
+        1179
+      ],
+      [
+        446,
+        1179
+      ]
+    ]
+  },
+  {
+    "text": "sub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the",
+    "confidence": 0.9992307424545288,
+    "bounding_box": [
+      [
+        446,
+        1182
+      ],
+      [
+        2103,
+        1182
+      ],
+      [
+        2103,
+        1225
+      ],
+      [
+        446,
+        1225
+      ]
+    ]
+  },
+  {
+    "text": "positional encodings in both the encoder and decoder stacks. For the base model, we use a rate of",
+    "confidence": 0.9930769205093384,
+    "bounding_box": [
+      [
+        444,
+        1228
+      ],
+      [
+        2106,
+        1224
+      ],
+      [
+        2106,
+        1269
+      ],
+      [
+        444,
+        1272
+      ]
+    ]
+  },
+  {
+    "text": "Pdrop = 0.1.",
+    "confidence": 0.9998274445533752,
+    "bounding_box": [
+      [
+        446,
+        1272
+      ],
+      [
+        667,
+        1272
+      ],
+      [
+        667,
+        1321
+      ],
+      [
+        446,
+        1321
+      ]
+    ]
+  },
+  {
+    "text": "Label Smoothing During training, we employed label smoothing of value els = 0.1 [36]. This",
+    "confidence": 0.9905798435211182,
+    "bounding_box": [
+      [
+        444,
+        1378
+      ],
+      [
+        2101,
+        1378
+      ],
+      [
+        2101,
+        1421
+      ],
+      [
+        444,
+        1421
+      ]
+    ]
+  },
+  {
+    "text": "hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score.",
+    "confidence": 0.99871426820755,
+    "bounding_box": [
+      [
+        446,
+        1426
+      ],
+      [
+        2049,
+        1426
+      ],
+      [
+        2049,
+        1466
+      ],
+      [
+        446,
+        1466
+      ]
+    ]
+  },
+  {
+    "text": "6 Results",
+    "confidence": 0.9469928741455078,
+    "bounding_box": [
+      [
+        445,
+        1544
+      ],
+      [
+        682,
+        1544
+      ],
+      [
+        682,
+        1592
+      ],
+      [
+        445,
+        1592
+      ]
+    ]
+  },
+  {
+    "text": "6.1 Machine Translation",
+    "confidence": 0.9964092373847961,
+    "bounding_box": [
+      [
+        447,
+        1652
+      ],
+      [
+        914,
+        1652
+      ],
+      [
+        914,
+        1693
+      ],
+      [
+        447,
+        1693
+      ]
+    ]
+  },
+  {
+    "text": "On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big)",
+    "confidence": 0.9983318448066711,
+    "bounding_box": [
+      [
+        446,
+        1738
+      ],
+      [
+        2104,
+        1740
+      ],
+      [
+        2104,
+        1783
+      ],
+      [
+        446,
+        1781
+      ]
+    ]
+  },
+  {
+    "text": "in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0",
+    "confidence": 0.9999929070472717,
+    "bounding_box": [
+      [
+        445,
+        1786
+      ],
+      [
+        2104,
+        1786
+      ],
+      [
+        2104,
+        1829
+      ],
+      [
+        445,
+        1829
+      ]
+    ]
+  },
+  {
+    "text": "BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is",
+    "confidence": 0.9999833106994629,
+    "bounding_box": [
+      [
+        444,
+        1829
+      ],
+      [
+        2102,
+        1830
+      ],
+      [
+        2102,
+        1873
+      ],
+      [
+        444,
+        1872
+      ]
+    ]
+  },
+  {
+    "text": "listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model",
+    "confidence": 0.993030846118927,
+    "bounding_box": [
+      [
+        445,
+        1875
+      ],
+      [
+        2103,
+        1876
+      ],
+      [
+        2103,
+        1917
+      ],
+      [
+        445,
+        1916
+      ]
+    ]
+  },
+  {
+    "text": "surpasses all previously published models and ensembles, at a fraction of the training cost of any of",
+    "confidence": 0.9868824481964111,
+    "bounding_box": [
+      [
+        445,
+        1922
+      ],
+      [
+        2105,
+        1920
+      ],
+      [
+        2105,
+        1964
+      ],
+      [
+        445,
+        1966
+      ]
+    ]
+  },
+  {
+    "text": "the competitive models.",
+    "confidence": 0.9999961256980896,
+    "bounding_box": [
+      [
+        447,
+        1968
+      ],
+      [
+        847,
+        1968
+      ],
+      [
+        847,
+        2009
+      ],
+      [
+        447,
+        2009
+      ]
+    ]
+  },
+  {
+    "text": "On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0,",
+    "confidence": 0.9955532550811768,
+    "bounding_box": [
+      [
+        448,
+        2036
+      ],
+      [
+        2105,
+        2036
+      ],
+      [
+        2105,
+        2077
+      ],
+      [
+        448,
+        2077
+      ]
+    ]
+  },
+  {
+    "text": "outperforming all of the previously published single models, at less than 1/4 the training cost of the",
+    "confidence": 0.9999960064888,
+    "bounding_box": [
+      [
+        446,
+        2082
+      ],
+      [
+        2103,
+        2082
+      ],
+      [
+        2103,
+        2125
+      ],
+      [
+        446,
+        2125
+      ]
+    ]
+  },
+  {
+    "text": "previous state-of-the-art model. The Transformer (big) model trained for English-to-French used",
+    "confidence": 0.9999845027923584,
+    "bounding_box": [
+      [
+        444,
+        2128
+      ],
+      [
+        2104,
+        2125
+      ],
+      [
+        2104,
+        2169
+      ],
+      [
+        444,
+        2172
+      ]
+    ]
+  },
+  {
+    "text": "dropout rate Pdrop = 0.1, instead of 0.3.",
+    "confidence": 0.9944269061088562,
+    "bounding_box": [
+      [
+        445,
+        2173
+      ],
+      [
+        1125,
+        2169
+      ],
+      [
+        1126,
+        2215
+      ],
+      [
+        445,
+        2219
+      ]
+    ]
+  },
+  {
+    "text": "For the base models, we used a single model obtained by averaging the last 5 checkpoints, which",
+    "confidence": 0.9923014044761658,
+    "bounding_box": [
+      [
+        444,
+        2240
+      ],
+      [
+        2103,
+        2240
+      ],
+      [
+        2103,
+        2283
+      ],
+      [
+        444,
+        2283
+      ]
+    ]
+  },
+  {
+    "text": "were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We",
+    "confidence": 0.9958913922309875,
+    "bounding_box": [
+      [
+        445,
+        2288
+      ],
+      [
+        2102,
+        2288
+      ],
+      [
+        2102,
+        2328
+      ],
+      [
+        445,
+        2328
+      ]
+    ]
+  },
+  {
+    "text": "used beam search with a beam size of 4 and length penalty α = 0.6 [38]. These hyperparameters",
+    "confidence": 0.9984798431396484,
+    "bounding_box": [
+      [
+        445,
+        2332
+      ],
+      [
+        2103,
+        2332
+      ],
+      [
+        2103,
+        2375
+      ],
+      [
+        445,
+        2375
+      ]
+    ]
+  },
+  {
+    "text": "were chosen after experimentation on the development set. We set the maximum output length during",
+    "confidence": 0.99947190284729,
+    "bounding_box": [
+      [
+        444,
+        2377
+      ],
+      [
+        2101,
+        2379
+      ],
+      [
+        2101,
+        2420
+      ],
+      [
+        444,
+        2418
+      ]
+    ]
+  },
+  {
+    "text": "inference to input length + 50, but terminate early when possible [38].",
+    "confidence": 0.9937952756881714,
+    "bounding_box": [
+      [
+        446,
+        2424
+      ],
+      [
+        1612,
+        2424
+      ],
+      [
+        1612,
+        2464
+      ],
+      [
+        446,
+        2464
+      ]
+    ]
+  },
+  {
+    "text": "Table 2 summarizes our results and compares our translation quality and training costs to other model",
+    "confidence": 0.9957882165908813,
+    "bounding_box": [
+      [
+        443,
+        2488
+      ],
+      [
+        2103,
+        2489
+      ],
+      [
+        2103,
+        2533
+      ],
+      [
+        443,
+        2532
+      ]
+    ]
+  },
+  {
+    "text": "architectures from the literature. We estimate the number of floating point operations used to train a",
+    "confidence": 0.9948267340660095,
+    "bounding_box": [
+      [
+        446,
+        2536
+      ],
+      [
+        2103,
+        2537
+      ],
+      [
+        2103,
+        2578
+      ],
+      [
+        446,
+        2577
+      ]
+    ]
+  },
+  {
+    "text": "model by multiplying the training time, the number of GPUs used, and an estimate of the sustained",
+    "confidence": 0.9949067234992981,
+    "bounding_box": [
+      [
+        446,
+        2583
+      ],
+      [
+        2103,
+        2581
+      ],
+      [
+        2103,
+        2621
+      ],
+      [
+        446,
+        2623
+      ]
+    ]
+  },
+  {
+    "text": "single-precision floating-point capacity of each GPU5.",
+    "confidence": 0.9994620084762573,
+    "bounding_box": [
+      [
+        445,
+        2627
+      ],
+      [
+        1363,
+        2621
+      ],
+      [
+        1364,
+        2668
+      ],
+      [
+        445,
+        2674
+      ]
+    ]
+  },
+  {
+    "text": "6.2 Model Variations",
+    "confidence": 0.9706047773361206,
+    "bounding_box": [
+      [
+        447,
+        2737
+      ],
+      [
+        852,
+        2737
+      ],
+      [
+        852,
+        2778
+      ],
+      [
+        447,
+        2778
+      ]
+    ]
+  },
+  {
+    "text": "To evaluate the importance of different components of the Transformer, we varied our base model",
+    "confidence": 0.9980487823486328,
+    "bounding_box": [
+      [
+        445,
+        2824
+      ],
+      [
+        2103,
+        2824
+      ],
+      [
+        2103,
+        2867
+      ],
+      [
+        445,
+        2867
+      ]
+    ]
+  },
+  {
+    "text": "in different ways, measuring the change in performance on English-to-German translation on the",
+    "confidence": 0.999994158744812,
+    "bounding_box": [
+      [
+        445,
+        2870
+      ],
+      [
+        2102,
+        2870
+      ],
+      [
+        2102,
+        2914
+      ],
+      [
+        445,
+        2914
+      ]
+    ]
+  },
+  {
+    "text": "5We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.",
+    "confidence": 0.9946067929267883,
+    "bounding_box": [
+      [
+        498,
+        2962
+      ],
+      [
+        1890,
+        2968
+      ],
+      [
+        1889,
+        3012
+      ],
+      [
+        498,
+        3006
+      ]
+    ]
+  },
+  {
+    "text": "8",
+    "confidence": 0.999996542930603,
+    "bounding_box": [
+      [
+        1260,
+        3090
+      ],
+      [
+        1289,
+        3090
+      ],
+      [
+        1289,
+        3131
+      ],
+      [
+        1260,
+        3131
+      ]
+    ]
+  }
+]

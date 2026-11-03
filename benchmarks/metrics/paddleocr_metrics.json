@@ -1,0 +1,55 @@
+{
+  "framework": "PaddleOCR",
+  "paddleocr_version": "3.7.0",
+  "paddlepaddle_version": "3.2.0",
+  "paddlex_version": "3.7.2",
+  "device": "gpu:0",
+  "dpi": 300,
+  "input_pdf": "data\\rasterized\\attention_is_all_you_need_rasterized.pdf",
+  "pages_processed": 5,
+  "total_inference_time_seconds": 17.5065,
+  "total_recognized_lines": 408,
+  "total_text_characters": 14487,
+  "pages": [
+    {
+      "page": 1,
+      "inference_time_seconds": 4.1304,
+      "recognized_lines": 56,
+      "text_characters": 2123,
+      "image_width": 2550,
+      "image_height": 3300
+    },
+    {
+      "page": 2,
+      "inference_time_seconds": 2.8859,
+      "recognized_lines": 60,
+      "text_characters": 2617,
+      "image_width": 2550,
+      "image_height": 3300
+    },
+    {
+      "page": 3,
+      "inference_time_seconds": 3.5067,
+      "recognized_lines": 62,
+      "text_characters": 3473,
+      "image_width": 2550,
+      "image_height": 3300
+    },
+    {
+      "page": 4,
+      "inference_time_seconds": 3.3487,
+      "recognized_lines": 82,
+      "text_characters": 3192,
+      "image_width": 2550,
+      "image_height": 3300
+    },
+    {
+      "page": 5,
+      "inference_time_seconds": 3.6348,
+      "recognized_lines": 148,
+      "text_characters": 2972,
+      "image_width": 2550,
+      "image_height": 3300
+    }
+  ]
+}

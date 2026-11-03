@@ -1,0 +1,9 @@
+framework,device,input_mode,initialization_seconds,reported_inference_pipeline_or_cli_seconds,additional_reported_runtime,monitored_elapsed_seconds,peak_process_tree_ram_mb,gpu_memory_observed_mb,gpu_memory_scope,disk_delta_mb,selected_resource_log,metric_source
+Tesseract,CPU,rendered_images,N/R,11.1193,12.5842 total wall including render and writes,15.70,494.4,142.0,global device reading; not process-specific,N/R,benchmarks/resource_logs/tesseract_baseline_20261102_114500_resources.csv,benchmarks/metrics/tesseract_metrics.json
+PaddleOCR,GPU gpu:0,rendered_images,N/R,17.5065,N/R,30.91,1918.3,4770.5,global device reading; not process-specific,N/R,benchmarks/resource_logs/paddleocr_gpu_20261102_141048_resources.csv,benchmarks/metrics/paddleocr_metrics.json
+OpenOCR,CPU,rendered_images,N/R,25.1599,N/R,26.86,720.8,142.0,global device reading; not process-specific,N/R,benchmarks/resource_logs/openocr_cpu_20261102_143741_resources.csv,benchmarks/metrics/openocr_metrics.json
+Surya,CPU,rendered_images,14.7379,561.0377,N/R,584.66,5449.3,142.0,global device reading; not process-specific,N/R,benchmarks/resource_logs/surya_cpu_20261102_184413_resources.csv,benchmarks/metrics/surya_metrics.json
+PP-StructureV3,CPU,rendered_images,71.1789,1653.3291,N/R,1745.75,7598.1,N/R,N/R,N/R,benchmarks/resource_logs/ppstructurev3_cpu_20261102_191909_resources.csv,benchmarks/metrics/ppstructurev3_metrics.json
+MinerU,CPU,rendered_images_ocr_mode,N/R,N/R,N/R,45.45,3154.5,N/R,N/R,N/R,benchmarks/resource_logs/mineru_basic_cpu_20261102_202851_resources.csv,benchmarks/metrics/mineru_metadata.json
+Marker,CPU,original_pdf_pdftext,N/R,5.6135 CLI,N/R,19.28,447.5,N/R,N/R,N/R,benchmarks/resource_logs/marker_fast_cpu_20261102_210516_resources.csv,benchmarks/metrics/marker_metadata.json
+Docling,CPU,original_pdf_standard_pipeline,N/R,21.407,N/R,60.70,1657.1,N/R,N/R,N/R,benchmarks/resource_logs/docling_standard_cpu_20261102_212459_resources.csv,benchmarks/metrics/docling_timings.json

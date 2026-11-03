@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "file_suffix": "pdf",
+    "producer": {
+      "name": "mineru",
+      "version": "4.1.4"
+    },
+    "document": {}
+  },
+  "extensions": {
+    "mineru": {
+      "tier": "basic",
+      "parse_mode": "ocr"
+    },
+    "docvortex_layout": {
+      "version": 1,
+      "pages": [
+        {
+          "page_idx": 0,
+          "width_pt": 918.0,
+          "height_pt": 1188.0
+        }
+      ]
+    }
+  },
+  "pages": [
+    {
+      "page_idx": 0,
+      "blocks": [
+        {
+          "type": "image",
+          "index": 0,
+          "bbox": [
+            0.281,
+            0.087,
+            0.763,
+            0.306
+          ],
+          "content": [
+            {
+              "type": "image_body",
+              "index": 0,
+              "bbox": [
+                0.281,
+                0.087,
+                0.763,
+                0.306
+              ],
+              "image_path": "images/page_0_image_0.jpg",
+              "content": ""
+            },
+            {
+              "type": "image_caption",
+              "index": 1,
+              "bbox": [
+                0.171,
+                0.345,
+                0.825,
+                0.375
+              ],
+              "content": [
+                {
+                  "type": "text",
+                  "content": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 2,
+          "bbox": [
+            0.171,
+            0.398,
+            0.826,
+            0.428
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key."
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 3,
+          "bbox": [
+            0.172,
+            0.442,
+            0.434,
+            0.456
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2.1 Scaled Dot-Product Attention"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 4,
+          "bbox": [
+            0.171,
+            0.465,
+            0.827,
+            0.522
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of queries and keys of dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{k}"
+            },
+            {
+              "type": "text",
+              "content": " , and values of dimension "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{v}"
+            },
+            {
+              "type": "text",
+              "content": " . We compute the dot products of the query with all keys, divide each by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\sqrt { d _ { k } }"
+            },
+            {
+              "type": "text",
+              "content": " , and apply a softmax function to obtain the weights on the values."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 5,
+          "bbox": [
+            0.171,
+            0.528,
+            0.826,
+            0.57
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "In practice, we compute the attention function on a set of queries simultaneously, packed together into a matrix Q. The keys and values are also packed together into matrices K and V. We compute the matrix of outputs as:"
+            }
+          ]
+        },
+        {
+          "type": "equation",
+          "index": 6,
+          "bbox": [
+            0.356,
+            0.585,
+            0.825,
+            0.62
+          ],
+          "image_path": "images/page_0_equation_6.jpg",
+          "content": "Attention (Q, K, V) =  softmax (\\frac{QK^T}{\\sqrt{d_k}})V\\tag{1}"
+        },
+        {
+          "type": "text",
+          "index": 7,
+          "bbox": [
+            0.171,
+            0.629,
+            0.827,
+            0.717
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "The two most commonly used attention functions are additive attention [2], and dot-product (multi-plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{\\sqrt{d_{k}}}"
+            },
+            {
+              "type": "text",
+              "content": " . Additive attention computes the compatibility function using a feed-forward network with a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized matrix multiplication code."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 8,
+          "bbox": [
+            0.171,
+            0.721,
+            0.827,
+            0.781
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "While for small values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{k}"
+            },
+            {
+              "type": "text",
+              "content": " the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{k}"
+            },
+            {
+              "type": "text",
+              "content": " [3]. We suspect that for large values of "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{k},"
+            },
+            {
+              "type": "text",
+              "content": " the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients 4. To counteract this effect, we scale the dot products by "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\frac{1}{\\sqrt{d_{k}}}"
+            }
+          ]
+        },
+        {
+          "type": "paragraph_title",
+          "index": 9,
+          "bbox": [
+            0.173,
+            0.795,
+            0.38,
+            0.809
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "3.2.2 Multi-Head Attention"
+            }
+          ],
+          "level": 2
+        },
+        {
+          "type": "text",
+          "index": 10,
+          "bbox": [
+            0.171,
+            0.818,
+            0.827,
+            0.876
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "Instead of performing a single attention function with "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d _ { \\mathrm { m o d e l } }"
+            },
+            {
+              "type": "text",
+              "content": " -dimensional keys, values and queries, we found it beneficial to linearly project the queries, keys and values h times with different, learned linear projections to "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d _ { k } ,   d _ { k }"
+            },
+            {
+              "type": "text",
+              "content": " and "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{v}"
+            },
+            {
+              "type": "text",
+              "content": " dimensions, respectively. On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{v}"
+            },
+            {
+              "type": "text",
+              "content": " -dimensional"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "index": 11,
+          "bbox": [
+            0.171,
+            0.885,
+            0.825,
+            0.913
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4To illustrate why the dot products get large, assume that the components of q and k are independent random variables with mean 0 and variance 1. Then their dot product, "
+            },
+            {
+              "type": "equation_inline",
+              "content": "\\begin{array} { r } { q \\cdot k = \\sum _ { i = 1 } ^ { d _ { k } } q _ { i } k _ { i } } \\end{array}"
+            },
+            {
+              "type": "text",
+              "content": " , has mean 0 and variance "
+            },
+            {
+              "type": "equation_inline",
+              "content": "d_{k}"
+            }
+          ]
+        },
+        {
+          "type": "page_number",
+          "index": 12,
+          "bbox": [
+            0.494,
+            0.937,
+            0.505,
+            0.948
+          ],
+          "content": [
+            {
+              "type": "text",
+              "content": "4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "is_full_document": true,
+  "schema": "docvortex.middle",
+  "schema_version": "2.0"
+}

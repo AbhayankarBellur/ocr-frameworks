@@ -1,0 +1,1288 @@
+{
+  "page": 1,
+  "image": "page_01.png",
+  "dimensions": [
+    2550,
+    3300
+  ],
+  "inference_time_seconds": 86.9452,
+  "recognized_lines": 58,
+  "text_lines": [
+    {
+      "text": "Output",
+      "polygon": [
+        [
+          1372.0,
+          302.0
+        ],
+        [
+          1498.0,
+          302.0
+        ],
+        [
+          1498.0,
+          338.0
+        ],
+        [
+          1372.0,
+          338.0
+        ]
+      ],
+      "confidence": 0.9751148223876953
+    },
+    {
+      "text": "Probabilities",
+      "polygon": [
+        [
+          1332.0,
+          346.0
+        ],
+        [
+          1538.0,
+          346.0
+        ],
+        [
+          1538.0,
+          380.0
+        ],
+        [
+          1332.0,
+          380.0
+        ]
+      ],
+      "confidence": 0.967643678188324
+    },
+    {
+      "text": "Softmax",
+      "polygon": [
+        [
+          1372.0,
+          429.0
+        ],
+        [
+          1500.0,
+          429.0
+        ],
+        [
+          1500.0,
+          463.0
+        ],
+        [
+          1372.0,
+          463.0
+        ]
+      ],
+      "confidence": 0.9743301868438721
+    },
+    {
+      "text": "Linear",
+      "polygon": [
+        [
+          1390.0,
+          515.0
+        ],
+        [
+          1483.0,
+          519.0
+        ],
+        [
+          1479.0,
+          547.0
+        ],
+        [
+          1386.0,
+          543.0
+        ]
+      ],
+      "confidence": 0.9362171377454486
+    },
+    {
+      "text": "Add & Norm",
+      "polygon": [
+        [
+          1345.0,
+          607.0
+        ],
+        [
+          1525.0,
+          607.0
+        ],
+        [
+          1525.0,
+          642.0
+        ],
+        [
+          1345.0,
+          642.0
+        ]
+      ],
+      "confidence": 0.9885692050059637
+    },
+    {
+      "text": "Feed",
+      "polygon": [
+        [
+          1398.0,
+          667.0
+        ],
+        [
+          1472.0,
+          667.0
+        ],
+        [
+          1472.0,
+          694.0
+        ],
+        [
+          1398.0,
+          694.0
+        ]
+      ],
+      "confidence": 0.9159835577011108
+    },
+    {
+      "text": "Forward",
+      "polygon": [
+        [
+          1374.0,
+          704.0
+        ],
+        [
+          1498.0,
+          704.0
+        ],
+        [
+          1498.0,
+          733.0
+        ],
+        [
+          1374.0,
+          733.0
+        ]
+      ],
+      "confidence": 0.9621441662311554
+    },
+    {
+      "text": "Add & Norm",
+      "polygon": [
+        [
+          1345.0,
+          797.0
+        ],
+        [
+          1527.0,
+          797.0
+        ],
+        [
+          1527.0,
+          830.0
+        ],
+        [
+          1345.0,
+          830.0
+        ]
+      ],
+      "confidence": 0.9912448873122534
+    },
+    {
+      "text": "Add & Norm",
+      "polygon": [
+        [
+          1020.0,
+          829.0
+        ],
+        [
+          1202.0,
+          829.0
+        ],
+        [
+          1202.0,
+          864.0
+        ],
+        [
+          1020.0,
+          864.0
+        ]
+      ],
+      "confidence": 0.9895191739002863
+    },
+    {
+      "text": "Multi-Head",
+      "polygon": [
+        [
+          1355.0,
+          853.0
+        ],
+        [
+          1515.0,
+          853.0
+        ],
+        [
+          1515.0,
+          883.0
+        ],
+        [
+          1355.0,
+          883.0
+        ]
+      ],
+      "confidence": 0.9788280129432678
+    },
+    {
+      "text": "Feed",
+      "polygon": [
+        [
+          1073.0,
+          887.0
+        ],
+        [
+          1149.0,
+          887.0
+        ],
+        [
+          1149.0,
+          915.0
+        ],
+        [
+          1073.0,
+          915.0
+        ]
+      ],
+      "confidence": 0.9432095408439636
+    },
+    {
+      "text": "Attention",
+      "polygon": [
+        [
+          1372.0,
+          893.0
+        ],
+        [
+          1498.0,
+          893.0
+        ],
+        [
+          1498.0,
+          921.0
+        ],
+        [
+          1372.0,
+          921.0
+        ]
+      ],
+      "confidence": 0.9492834866046905
+    },
+    {
+      "text": "<b>Forward</b>",
+      "polygon": [
+        [
+          1049.0,
+          925.0
+        ],
+        [
+          1168.0,
+          925.0
+        ],
+        [
+          1168.0,
+          953.0
+        ],
+        [
+          1049.0,
+          953.0
+        ]
+      ],
+      "confidence": 0.9331508062102578
+    },
+    {
+      "text": "<math>N \\times</math>",
+      "polygon": [
+        [
+          1640.0,
+          925.0
+        ],
+        [
+          1702.0,
+          925.0
+        ],
+        [
+          1702.0,
+          955.0
+        ],
+        [
+          1640.0,
+          955.0
+        ]
+      ],
+      "confidence": 0.7829117454015292
+    },
+    {
+      "text": "Add & Norm",
+      "polygon": [
+        [
+          1345.0,
+          1017.0
+        ],
+        [
+          1527.0,
+          1017.0
+        ],
+        [
+          1527.0,
+          1050.0
+        ],
+        [
+          1345.0,
+          1050.0
+        ]
+      ],
+      "confidence": 0.9905833552281061
+    },
+    {
+      "text": "<math>N \\times</math>",
+      "polygon": [
+        [
+          837.0,
+          1037.0
+        ],
+        [
+          894.0,
+          1037.0
+        ],
+        [
+          894.0,
+          1069.0
+        ],
+        [
+          837.0,
+          1069.0
+        ]
+      ],
+      "confidence": 0.848570507306319
+    },
+    {
+      "text": "Add & Norm",
+      "polygon": [
+        [
+          1020.0,
+          1052.0
+        ],
+        [
+          1204.0,
+          1052.0
+        ],
+        [
+          1204.0,
+          1086.0
+        ],
+        [
+          1020.0,
+          1086.0
+        ]
+      ],
+      "confidence": 0.991631011168162
+    },
+    {
+      "text": "Masked",
+      "polygon": [
+        [
+          1377.0,
+          1071.0
+        ],
+        [
+          1496.0,
+          1071.0
+        ],
+        [
+          1496.0,
+          1101.0
+        ],
+        [
+          1377.0,
+          1101.0
+        ]
+      ],
+      "confidence": 0.9762357984270368
+    },
+    {
+      "text": "Multi-Head",
+      "polygon": [
+        [
+          1033.0,
+          1105.0
+        ],
+        [
+          1192.0,
+          1107.0
+        ],
+        [
+          1191.0,
+          1137.0
+        ],
+        [
+          1031.0,
+          1135.0
+        ]
+      ],
+      "confidence": 0.9729900807142258
+    },
+    {
+      "text": "Multi-Head",
+      "polygon": [
+        [
+          1355.0,
+          1109.0
+        ],
+        [
+          1515.0,
+          1109.0
+        ],
+        [
+          1515.0,
+          1138.0
+        ],
+        [
+          1355.0,
+          1138.0
+        ]
+      ],
+      "confidence": 0.9770123412211736
+    },
+    {
+      "text": "Attention",
+      "polygon": [
+        [
+          1045.0,
+          1147.0
+        ],
+        [
+          1175.0,
+          1147.0
+        ],
+        [
+          1175.0,
+          1175.0
+        ],
+        [
+          1045.0,
+          1175.0
+        ]
+      ],
+      "confidence": 0.9534821689128876
+    },
+    {
+      "text": "Attention",
+      "polygon": [
+        [
+          1374.0,
+          1150.0
+        ],
+        [
+          1502.0,
+          1150.0
+        ],
+        [
+          1502.0,
+          1177.0
+        ],
+        [
+          1374.0,
+          1177.0
+        ]
+      ],
+      "confidence": 0.9563254535198211
+    },
+    {
+      "text": "Positional",
+      "polygon": [
+        [
+          811.0,
+          1294.0
+        ],
+        [
+          981.0,
+          1294.0
+        ],
+        [
+          981.0,
+          1328.0
+        ],
+        [
+          811.0,
+          1328.0
+        ]
+      ],
+      "confidence": 0.9742034077644348
+    },
+    {
+      "text": "Positional",
+      "polygon": [
+        [
+          1570.0,
+          1300.0
+        ],
+        [
+          1738.0,
+          1300.0
+        ],
+        [
+          1738.0,
+          1333.0
+        ],
+        [
+          1570.0,
+          1333.0
+        ]
+      ],
+      "confidence": 0.9748263467441906
+    },
+    {
+      "text": "Encoding",
+      "polygon": [
+        [
+          812.0,
+          1337.0
+        ],
+        [
+          974.0,
+          1339.0
+        ],
+        [
+          972.0,
+          1373.0
+        ],
+        [
+          810.0,
+          1372.0
+        ]
+      ],
+      "confidence": 0.9574677348136902
+    },
+    {
+      "text": "Encoding",
+      "polygon": [
+        [
+          1572.0,
+          1346.0
+        ],
+        [
+          1734.0,
+          1346.0
+        ],
+        [
+          1734.0,
+          1380.0
+        ],
+        [
+          1572.0,
+          1380.0
+        ]
+      ],
+      "confidence": 0.9706932902336121
+    },
+    {
+      "text": "Output",
+      "polygon": [
+        [
+          1383.0,
+          1399.0
+        ],
+        [
+          1491.0,
+          1399.0
+        ],
+        [
+          1491.0,
+          1429.0
+        ],
+        [
+          1383.0,
+          1429.0
+        ]
+      ],
+      "confidence": 0.9803615042141506
+    },
+    {
+      "text": "Input",
+      "polygon": [
+        [
+          1073.0,
+          1401.0
+        ],
+        [
+          1151.0,
+          1401.0
+        ],
+        [
+          1151.0,
+          1429.0
+        ],
+        [
+          1073.0,
+          1429.0
+        ]
+      ],
+      "confidence": 0.9641904234886169
+    },
+    {
+      "text": "Embedding",
+      "polygon": [
+        [
+          1026.0,
+          1436.0
+        ],
+        [
+          1200.0,
+          1436.0
+        ],
+        [
+          1200.0,
+          1468.0
+        ],
+        [
+          1026.0,
+          1468.0
+        ]
+      ],
+      "confidence": 0.9785803496837616
+    },
+    {
+      "text": "Embedding",
+      "polygon": [
+        [
+          1353.0,
+          1435.0
+        ],
+        [
+          1524.0,
+          1437.0
+        ],
+        [
+          1523.0,
+          1470.0
+        ],
+        [
+          1352.0,
+          1468.0
+        ]
+      ],
+      "confidence": 0.978292566537857
+    },
+    {
+      "text": "Outputs",
+      "polygon": [
+        [
+          1364.0,
+          1559.0
+        ],
+        [
+          1508.0,
+          1559.0
+        ],
+        [
+          1508.0,
+          1593.0
+        ],
+        [
+          1364.0,
+          1593.0
+        ]
+      ],
+      "confidence": 0.9688690006732941
+    },
+    {
+      "text": "Inputs",
+      "polygon": [
+        [
+          1058.0,
+          1560.0
+        ],
+        [
+          1168.0,
+          1560.0
+        ],
+        [
+          1168.0,
+          1594.0
+        ],
+        [
+          1058.0,
+          1594.0
+        ]
+      ],
+      "confidence": 0.9660798481532505
+    },
+    {
+      "text": "(shifted right)",
+      "polygon": [
+        [
+          1330.0,
+          1603.0
+        ],
+        [
+          1542.0,
+          1603.0
+        ],
+        [
+          1542.0,
+          1638.0
+        ],
+        [
+          1330.0,
+          1638.0
+        ]
+      ],
+      "confidence": 0.9936642050743103
+    },
+    {
+      "text": "Figure 1: The Transformer - model architecture.",
+      "polygon": [
+        [
+          867.0,
+          1688.0
+        ],
+        [
+          1678.0,
+          1688.0
+        ],
+        [
+          1678.0,
+          1724.0
+        ],
+        [
+          867.0,
+          1724.0
+        ]
+      ],
+      "confidence": 0.9990512059659374
+    },
+    {
+      "text": "The Transformer follows this overall architecture using stacked self-attention and point-wise, fully",
+      "polygon": [
+        [
+          446.0,
+          1820.0
+        ],
+        [
+          2110.0,
+          1820.0
+        ],
+        [
+          2110.0,
+          1858.0
+        ],
+        [
+          446.0,
+          1858.0
+        ]
+      ],
+      "confidence": 0.9998735592645758
+    },
+    {
+      "text": "connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1,",
+      "polygon": [
+        [
+          446.0,
+          1867.0
+        ],
+        [
+          2112.0,
+          1867.0
+        ],
+        [
+          2112.0,
+          1904.0
+        ],
+        [
+          446.0,
+          1904.0
+        ]
+      ],
+      "confidence": 0.9998206442594528
+    },
+    {
+      "text": "respectively.",
+      "polygon": [
+        [
+          444.0,
+          1913.0
+        ],
+        [
+          663.0,
+          1913.0
+        ],
+        [
+          663.0,
+          1948.0
+        ],
+        [
+          444.0,
+          1948.0
+        ]
+      ],
+      "confidence": 0.9992990215619405
+    },
+    {
+      "text": "<b>Encoder and Decoder Stacks</b>",
+      "polygon": [
+        [
+          518.0,
+          2013.0
+        ],
+        [
+          1060.0,
+          2013.0
+        ],
+        [
+          1060.0,
+          2047.0
+        ],
+        [
+          518.0,
+          2047.0
+        ]
+      ],
+      "confidence": 0.9898163934548696
+    },
+    {
+      "text": "3.1",
+      "polygon": [
+        [
+          446.0,
+          2015.0
+        ],
+        [
+          510.0,
+          2015.0
+        ],
+        [
+          510.0,
+          2045.0
+        ],
+        [
+          446.0,
+          2045.0
+        ]
+      ],
+      "confidence": 0.6807640194892883
+    },
+    {
+      "text": "The encoder is composed of a stack of <math>N=6</math> identical layers. Each layer has two",
+      "polygon": [
+        [
+          643.0,
+          2098.0
+        ],
+        [
+          2110.0,
+          2095.0
+        ],
+        [
+          2110.0,
+          2132.0
+        ],
+        [
+          643.0,
+          2135.0
+        ]
+      ],
+      "confidence": 0.994346424039588
+    },
+    {
+      "text": "<b>Encoder:</b>",
+      "polygon": [
+        [
+          446.0,
+          2100.0
+        ],
+        [
+          624.0,
+          2100.0
+        ],
+        [
+          624.0,
+          2130.0
+        ],
+        [
+          446.0,
+          2130.0
+        ]
+      ],
+      "confidence": 0.9609519789616267
+    },
+    {
+      "text": "sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-",
+      "polygon": [
+        [
+          446.0,
+          2142.0
+        ],
+        [
+          2112.0,
+          2142.0
+        ],
+        [
+          2112.0,
+          2179.0
+        ],
+        [
+          446.0,
+          2179.0
+        ]
+      ],
+      "confidence": 0.9998194945668711
+    },
+    {
+      "text": "wise fully connected feed-forward network. We employ a residual connection [11] around each of",
+      "polygon": [
+        [
+          444.0,
+          2187.0
+        ],
+        [
+          2110.0,
+          2187.0
+        ],
+        [
+          2110.0,
+          2223.0
+        ],
+        [
+          444.0,
+          2223.0
+        ]
+      ],
+      "confidence": 0.9993092579146227
+    },
+    {
+      "text": "the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is",
+      "polygon": [
+        [
+          446.0,
+          2233.0
+        ],
+        [
+          2108.0,
+          2233.0
+        ],
+        [
+          2108.0,
+          2270.0
+        ],
+        [
+          446.0,
+          2270.0
+        ]
+      ],
+      "confidence": 0.9996636660412105
+    },
+    {
+      "text": "LayerNorm<math>(x + \\text{Sublayer}(x))</math>, where Sublayer<math>(x)</math> is the function implemented by the sub-layer",
+      "polygon": [
+        [
+          446.0,
+          2278.0
+        ],
+        [
+          2110.0,
+          2278.0
+        ],
+        [
+          2110.0,
+          2316.0
+        ],
+        [
+          446.0,
+          2316.0
+        ]
+      ],
+      "confidence": 0.9810926748009828
+    },
+    {
+      "text": "itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding",
+      "polygon": [
+        [
+          444.0,
+          2322.0
+        ],
+        [
+          2108.0,
+          2325.0
+        ],
+        [
+          2107.0,
+          2363.0
+        ],
+        [
+          443.0,
+          2360.0
+        ]
+      ],
+      "confidence": 0.9999571919441224
+    },
+    {
+      "text": "layers, produce outputs of dimension <math>d_{\\text{model}} = 512</math>.",
+      "polygon": [
+        [
+          448.0,
+          2369.0
+        ],
+        [
+          1298.0,
+          2371.0
+        ],
+        [
+          1298.0,
+          2410.0
+        ],
+        [
+          448.0,
+          2408.0
+        ]
+      ],
+      "confidence": 0.9937064812733577
+    },
+    {
+      "text": "<b>Decoder:</b> The decoder is also composed of a stack of <math>N=6</math> identical layers. In addition to the two",
+      "polygon": [
+        [
+          444.0,
+          2465.0
+        ],
+        [
+          2107.0,
+          2465.0
+        ],
+        [
+          2107.0,
+          2502.0
+        ],
+        [
+          444.0,
+          2502.0
+        ]
+      ],
+      "confidence": 0.9931368995638727
+    },
+    {
+      "text": "sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head",
+      "polygon": [
+        [
+          446.0,
+          2509.0
+        ],
+        [
+          2107.0,
+          2509.0
+        ],
+        [
+          2107.0,
+          2547.0
+        ],
+        [
+          446.0,
+          2547.0
+        ]
+      ],
+      "confidence": 0.9999153393507004
+    },
+    {
+      "text": "attention over the output of the encoder stack. Similar to the encoder, we employ residual connections",
+      "polygon": [
+        [
+          446.0,
+          2556.0
+        ],
+        [
+          2108.0,
+          2556.0
+        ],
+        [
+          2108.0,
+          2593.0
+        ],
+        [
+          446.0,
+          2593.0
+        ]
+      ],
+      "confidence": 0.9999023515444535
+    },
+    {
+      "text": "around each of the sub-layers, followed by layer normalization. We also modify the self-attention",
+      "polygon": [
+        [
+          446.0,
+          2601.0
+        ],
+        [
+          2110.0,
+          2601.0
+        ],
+        [
+          2110.0,
+          2638.0
+        ],
+        [
+          446.0,
+          2638.0
+        ]
+      ],
+      "confidence": 0.9998995481115399
+    },
+    {
+      "text": "sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This",
+      "polygon": [
+        [
+          446.0,
+          2645.0
+        ],
+        [
+          2107.0,
+          2645.0
+        ],
+        [
+          2107.0,
+          2683.0
+        ],
+        [
+          446.0,
+          2683.0
+        ]
+      ],
+      "confidence": 0.9999039276522033
+    },
+    {
+      "text": "masking, combined with fact that the output embeddings are offset by one position, ensures that the",
+      "polygon": [
+        [
+          446.0,
+          2692.0
+        ],
+        [
+          2110.0,
+          2692.0
+        ],
+        [
+          2110.0,
+          2729.0
+        ],
+        [
+          446.0,
+          2729.0
+        ]
+      ],
+      "confidence": 0.999860682109795
+    },
+    {
+      "text": "predictions for position <math>i</math> can depend only on the known outputs at positions less than <math>i</math>.",
+      "polygon": [
+        [
+          446.0,
+          2738.0
+        ],
+        [
+          1912.0,
+          2738.0
+        ],
+        [
+          1912.0,
+          2775.0
+        ],
+        [
+          446.0,
+          2775.0
+        ]
+      ],
+      "confidence": 0.9949127323925495
+    },
+    {
+      "text": "3.2 Attention",
+      "polygon": [
+        [
+          446.0,
+          2840.0
+        ],
+        [
+          718.0,
+          2840.0
+        ],
+        [
+          718.0,
+          2875.0
+        ],
+        [
+          446.0,
+          2875.0
+        ]
+      ],
+      "confidence": 0.9464082598686219
+    },
+    {
+      "text": "An attention function can be described as mapping a query and a set of key-value pairs to an output,",
+      "polygon": [
+        [
+          444.0,
+          2925.0
+        ],
+        [
+          2112.0,
+          2925.0
+        ],
+        [
+          2112.0,
+          2962.0
+        ],
+        [
+          444.0,
+          2962.0
+        ]
+      ],
+      "confidence": 0.9998664832582661
+    },
+    {
+      "text": "where the query, keys, values, and output are all vectors. The output is computed as a weighted sum",
+      "polygon": [
+        [
+          444.0,
+          2969.0
+        ],
+        [
+          2110.0,
+          2969.0
+        ],
+        [
+          2110.0,
+          3006.0
+        ],
+        [
+          444.0,
+          3006.0
+        ]
+      ],
+      "confidence": 0.9998416989156516
+    },
+    {
+      "text": "3",
+      "polygon": [
+        [
+          1262.0,
+          3093.0
+        ],
+        [
+          1289.0,
+          3093.0
+        ],
+        [
+          1289.0,
+          3128.0
+        ],
+        [
+          1262.0,
+          3128.0
+        ]
+      ],
+      "confidence": 0.9589584171772003
+    }
+  ]
+}

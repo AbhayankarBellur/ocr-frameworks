@@ -1,0 +1,1366 @@
+[
+  {
+    "text": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+    "confidence": 0.9986706376075745,
+    "bounding_box": [
+      [
+        444,
+        292
+      ],
+      [
+        2101,
+        293
+      ],
+      [
+        2101,
+        337
+      ],
+      [
+        444,
+        336
+      ]
+    ]
+  },
+  {
+    "text": "for different layer types. n is the sequence length, d is the representation dimension, k is the kernel",
+    "confidence": 0.9981682300567627,
+    "bounding_box": [
+      [
+        445,
+        338
+      ],
+      [
+        2103,
+        339
+      ],
+      [
+        2103,
+        383
+      ],
+      [
+        445,
+        382
+      ]
+    ]
+  },
+  {
+    "text": "size of convolutions and r the size of the neighborhood in restricted self-attention.",
+    "confidence": 0.9974856972694397,
+    "bounding_box": [
+      [
+        447,
+        385
+      ],
+      [
+        1813,
+        385
+      ],
+      [
+        1813,
+        426
+      ],
+      [
+        447,
+        426
+      ]
+    ]
+  },
+  {
+    "text": "Layer Type",
+    "confidence": 0.9999969601631165,
+    "bounding_box": [
+      [
+        514,
+        483
+      ],
+      [
+        710,
+        483
+      ],
+      [
+        710,
+        528
+      ],
+      [
+        514,
+        528
+      ]
+    ]
+  },
+  {
+    "text": "Complexity per Layer",
+    "confidence": 0.9999939203262329,
+    "bounding_box": [
+      [
+        996,
+        482
+      ],
+      [
+        1371,
+        484
+      ],
+      [
+        1370,
+        528
+      ],
+      [
+        996,
+        526
+      ]
+    ]
+  },
+  {
+    "text": "Sequential",
+    "confidence": 0.9999957084655762,
+    "bounding_box": [
+      [
+        1413,
+        482
+      ],
+      [
+        1598,
+        482
+      ],
+      [
+        1598,
+        527
+      ],
+      [
+        1413,
+        527
+      ]
+    ]
+  },
+  {
+    "text": "Maximum Path Length",
+    "confidence": 0.9999966025352478,
+    "bounding_box": [
+      [
+        1641,
+        482
+      ],
+      [
+        2032,
+        484
+      ],
+      [
+        2032,
+        525
+      ],
+      [
+        1640,
+        523
+      ]
+    ]
+  },
+  {
+    "text": "Operations",
+    "confidence": 0.9999889135360718,
+    "bounding_box": [
+      [
+        1411,
+        529
+      ],
+      [
+        1599,
+        529
+      ],
+      [
+        1599,
+        574
+      ],
+      [
+        1411,
+        574
+      ]
+    ]
+  },
+  {
+    "text": "Self-Attention",
+    "confidence": 0.9999957084655762,
+    "bounding_box": [
+      [
+        516,
+        581
+      ],
+      [
+        757,
+        581
+      ],
+      [
+        757,
+        622
+      ],
+      [
+        516,
+        622
+      ]
+    ]
+  },
+  {
+    "text": "O(n2 · d)",
+    "confidence": 0.9965874552726746,
+    "bounding_box": [
+      [
+        1097,
+        577
+      ],
+      [
+        1265,
+        577
+      ],
+      [
+        1265,
+        630
+      ],
+      [
+        1097,
+        630
+      ]
+    ]
+  },
+  {
+    "text": "O(1)",
+    "confidence": 0.9995229244232178,
+    "bounding_box": [
+      [
+        1455,
+        576
+      ],
+      [
+        1554,
+        576
+      ],
+      [
+        1554,
+        633
+      ],
+      [
+        1455,
+        633
+      ]
+    ]
+  },
+  {
+    "text": "O(1)",
+    "confidence": 0.9997685551643372,
+    "bounding_box": [
+      [
+        1789,
+        575
+      ],
+      [
+        1888,
+        575
+      ],
+      [
+        1888,
+        633
+      ],
+      [
+        1789,
+        633
+      ]
+    ]
+  },
+  {
+    "text": "Recurrent",
+    "confidence": 0.9999977946281433,
+    "bounding_box": [
+      [
+        516,
+        630
+      ],
+      [
+        686,
+        630
+      ],
+      [
+        686,
+        669
+      ],
+      [
+        516,
+        669
+      ]
+    ]
+  },
+  {
+    "text": "O(n · d2)",
+    "confidence": 0.9983295798301697,
+    "bounding_box": [
+      [
+        1097,
+        623
+      ],
+      [
+        1267,
+        623
+      ],
+      [
+        1267,
+        676
+      ],
+      [
+        1097,
+        676
+      ]
+    ]
+  },
+  {
+    "text": "O(n)",
+    "confidence": 0.9997369050979614,
+    "bounding_box": [
+      [
+        1454,
+        622
+      ],
+      [
+        1555,
+        622
+      ],
+      [
+        1555,
+        679
+      ],
+      [
+        1454,
+        679
+      ]
+    ]
+  },
+  {
+    "text": "O(n)",
+    "confidence": 0.9997308254241943,
+    "bounding_box": [
+      [
+        1787,
+        622
+      ],
+      [
+        1888,
+        622
+      ],
+      [
+        1888,
+        679
+      ],
+      [
+        1787,
+        679
+      ]
+    ]
+  },
+  {
+    "text": "Convolutional",
+    "confidence": 0.9999973773956299,
+    "bounding_box": [
+      [
+        517,
+        678
+      ],
+      [
+        755,
+        678
+      ],
+      [
+        755,
+        716
+      ],
+      [
+        517,
+        716
+      ]
+    ]
+  },
+  {
+    "text": "O(k · n · d2)",
+    "confidence": 0.9985319375991821,
+    "bounding_box": [
+      [
+        1073,
+        672
+      ],
+      [
+        1288,
+        672
+      ],
+      [
+        1288,
+        721
+      ],
+      [
+        1073,
+        721
+      ]
+    ]
+  },
+  {
+    "text": "O(1)",
+    "confidence": 0.9966402649879456,
+    "bounding_box": [
+      [
+        1455,
+        669
+      ],
+      [
+        1554,
+        669
+      ],
+      [
+        1554,
+        726
+      ],
+      [
+        1455,
+        726
+      ]
+    ]
+  },
+  {
+    "text": "O(logk(n))",
+    "confidence": 0.9710782170295715,
+    "bounding_box": [
+      [
+        1737,
+        671
+      ],
+      [
+        1938,
+        673
+      ],
+      [
+        1937,
+        726
+      ],
+      [
+        1736,
+        724
+      ]
+    ]
+  },
+  {
+    "text": "Self-Attention (restricted)",
+    "confidence": 0.9999201893806458,
+    "bounding_box": [
+      [
+        515,
+        721
+      ],
+      [
+        948,
+        723
+      ],
+      [
+        948,
+        764
+      ],
+      [
+        515,
+        762
+      ]
+    ]
+  },
+  {
+    "text": "O(r · n · d)",
+    "confidence": 0.9589219093322754,
+    "bounding_box": [
+      [
+        1083,
+        720
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        769
+      ],
+      [
+        1083,
+        769
+      ]
+    ]
+  },
+  {
+    "text": "O(1)",
+    "confidence": 0.9970784783363342,
+    "bounding_box": [
+      [
+        1455,
+        715
+      ],
+      [
+        1554,
+        715
+      ],
+      [
+        1554,
+        773
+      ],
+      [
+        1455,
+        773
+      ]
+    ]
+  },
+  {
+    "text": "O(n/r)",
+    "confidence": 0.9871609210968018,
+    "bounding_box": [
+      [
+        1767,
+        718
+      ],
+      [
+        1909,
+        718
+      ],
+      [
+        1909,
+        772
+      ],
+      [
+        1767,
+        772
+      ]
+    ]
+  },
+  {
+    "text": "3.5 Positional Encoding",
+    "confidence": 0.9959536194801331,
+    "bounding_box": [
+      [
+        445,
+        887
+      ],
+      [
+        899,
+        890
+      ],
+      [
+        898,
+        931
+      ],
+      [
+        445,
+        928
+      ]
+    ]
+  },
+  {
+    "text": "Since our model contains no recurrence and no convolution, in order for the model to make use of the",
+    "confidence": 0.9986560344696045,
+    "bounding_box": [
+      [
+        448,
+        972
+      ],
+      [
+        2101,
+        972
+      ],
+      [
+        2101,
+        1012
+      ],
+      [
+        448,
+        1012
+      ]
+    ]
+  },
+  {
+    "text": "order of the sequence, we must inject some information about the relative or absolute position of the",
+    "confidence": 0.9925469160079956,
+    "bounding_box": [
+      [
+        446,
+        1017
+      ],
+      [
+        2102,
+        1017
+      ],
+      [
+        2102,
+        1060
+      ],
+      [
+        446,
+        1060
+      ]
+    ]
+  },
+  {
+    "text": "tokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the",
+    "confidence": 0.9993701577186584,
+    "bounding_box": [
+      [
+        444,
+        1062
+      ],
+      [
+        2102,
+        1063
+      ],
+      [
+        2102,
+        1106
+      ],
+      [
+        444,
+        1105
+      ]
+    ]
+  },
+  {
+    "text": "bottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel",
+    "confidence": 0.9977422952651978,
+    "bounding_box": [
+      [
+        444,
+        1104
+      ],
+      [
+        2102,
+        1108
+      ],
+      [
+        2102,
+        1153
+      ],
+      [
+        444,
+        1149
+      ]
+    ]
+  },
+  {
+    "text": "as the embeddings, so that the two can be summed. There are many choices of positional encodings,",
+    "confidence": 0.999983012676239,
+    "bounding_box": [
+      [
+        445,
+        1154
+      ],
+      [
+        2105,
+        1155
+      ],
+      [
+        2105,
+        1196
+      ],
+      [
+        445,
+        1195
+      ]
+    ]
+  },
+  {
+    "text": "learned and fixed [9].",
+    "confidence": 0.9999757409095764,
+    "bounding_box": [
+      [
+        446,
+        1200
+      ],
+      [
+        804,
+        1200
+      ],
+      [
+        804,
+        1242
+      ],
+      [
+        446,
+        1242
+      ]
+    ]
+  },
+  {
+    "text": "In this work, we use sine and cosine functions of different frequencies:",
+    "confidence": 0.9976268410682678,
+    "bounding_box": [
+      [
+        446,
+        1267
+      ],
+      [
+        1625,
+        1267
+      ],
+      [
+        1625,
+        1310
+      ],
+      [
+        446,
+        1310
+      ]
+    ]
+  },
+  {
+    "text": "PE(pos,2i) = sin(pos/100002i/dmodel)",
+    "confidence": 0.9808541536331177,
+    "bounding_box": [
+      [
+        976,
+        1401
+      ],
+      [
+        1612,
+        1391
+      ],
+      [
+        1613,
+        1452
+      ],
+      [
+        977,
+        1461
+      ]
+    ]
+  },
+  {
+    "text": "PE(pos,2i+1) = cos(pos/100002i/dmodel)",
+    "confidence": 0.9996618032455444,
+    "bounding_box": [
+      [
+        935,
+        1473
+      ],
+      [
+        1613,
+        1465
+      ],
+      [
+        1614,
+        1523
+      ],
+      [
+        936,
+        1531
+      ]
+    ]
+  },
+  {
+    "text": "where pos is the position and i is the dimension. That is, each dimension of the positional encoding",
+    "confidence": 0.9999882578849792,
+    "bounding_box": [
+      [
+        445,
+        1569
+      ],
+      [
+        2102,
+        1570
+      ],
+      [
+        2102,
+        1613
+      ],
+      [
+        445,
+        1612
+      ]
+    ]
+  },
+  {
+    "text": "corresponds to a sinusoid. The wavelengths form a geometric progression from 2π to 10000 · 2π. We",
+    "confidence": 0.9963629841804504,
+    "bounding_box": [
+      [
+        444,
+        1616
+      ],
+      [
+        2103,
+        1615
+      ],
+      [
+        2103,
+        1659
+      ],
+      [
+        444,
+        1660
+      ]
+    ]
+  },
+  {
+    "text": "chose this function because we hypothesized it would allow the model to easily learn to attend by",
+    "confidence": 0.999989926815033,
+    "bounding_box": [
+      [
+        446,
+        1661
+      ],
+      [
+        2102,
+        1663
+      ],
+      [
+        2102,
+        1703
+      ],
+      [
+        446,
+        1701
+      ]
+    ]
+  },
+  {
+    "text": "relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of",
+    "confidence": 0.9999797344207764,
+    "bounding_box": [
+      [
+        444,
+        1707
+      ],
+      [
+        2105,
+        1707
+      ],
+      [
+        2105,
+        1751
+      ],
+      [
+        444,
+        1751
+      ]
+    ]
+  },
+  {
+    "text": "PEpos•",
+    "confidence": 0.9184499382972717,
+    "bounding_box": [
+      [
+        444,
+        1741
+      ],
+      [
+        583,
+        1751
+      ],
+      [
+        579,
+        1809
+      ],
+      [
+        440,
+        1799
+      ]
+    ]
+  },
+  {
+    "text": "We also experimented with using learned positional embeddings [9] instead, and found that the two",
+    "confidence": 0.9859809279441833,
+    "bounding_box": [
+      [
+        445,
+        1821
+      ],
+      [
+        2103,
+        1821
+      ],
+      [
+        2103,
+        1864
+      ],
+      [
+        445,
+        1864
+      ]
+    ]
+  },
+  {
+    "text": "versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version",
+    "confidence": 0.9999606609344482,
+    "bounding_box": [
+      [
+        445,
+        1867
+      ],
+      [
+        2102,
+        1865
+      ],
+      [
+        2102,
+        1906
+      ],
+      [
+        445,
+        1908
+      ]
+    ]
+  },
+  {
+    "text": "because it may allow the model to extrapolate to sequence lengths longer than the ones encountered",
+    "confidence": 0.9945286512374878,
+    "bounding_box": [
+      [
+        446,
+        1912
+      ],
+      [
+        2103,
+        1912
+      ],
+      [
+        2103,
+        1952
+      ],
+      [
+        446,
+        1952
+      ]
+    ]
+  },
+  {
+    "text": "during training.",
+    "confidence": 0.9950478076934814,
+    "bounding_box": [
+      [
+        446,
+        1957
+      ],
+      [
+        708,
+        1959
+      ],
+      [
+        708,
+        2002
+      ],
+      [
+        446,
+        1999
+      ]
+    ]
+  },
+  {
+    "text": "4 Why Self-Attention",
+    "confidence": 0.9998868703842163,
+    "bounding_box": [
+      [
+        446,
+        2066
+      ],
+      [
+        941,
+        2066
+      ],
+      [
+        941,
+        2120
+      ],
+      [
+        446,
+        2120
+      ]
+    ]
+  },
+  {
+    "text": "In this section we compare various aspects of self-attention layers to the recurrent and convolu-",
+    "confidence": 0.9999268651008606,
+    "bounding_box": [
+      [
+        445,
+        2170
+      ],
+      [
+        2108,
+        2170
+      ],
+      [
+        2108,
+        2213
+      ],
+      [
+        445,
+        2213
+      ]
+    ]
+  },
+  {
+    "text": "tional layers commonly used for mapping one variable-length sequence of symbol representations",
+    "confidence": 0.996119499206543,
+    "bounding_box": [
+      [
+        446,
+        2217
+      ],
+      [
+        2102,
+        2217
+      ],
+      [
+        2102,
+        2260
+      ],
+      [
+        446,
+        2260
+      ]
+    ]
+  },
+  {
+    "text": "(x1, ..., xn) to another sequence of equal length (z1, ..., zn), with xi, zi ∈ Rd, such as a hidden",
+    "confidence": 0.9928572773933411,
+    "bounding_box": [
+      [
+        443,
+        2261
+      ],
+      [
+        2104,
+        2258
+      ],
+      [
+        2104,
+        2305
+      ],
+      [
+        443,
+        2308
+      ]
+    ]
+  },
+  {
+    "text": "layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we",
+    "confidence": 0.9981635808944702,
+    "bounding_box": [
+      [
+        444,
+        2308
+      ],
+      [
+        2103,
+        2305
+      ],
+      [
+        2103,
+        2348
+      ],
+      [
+        444,
+        2351
+      ]
+    ]
+  },
+  {
+    "text": "consider three desiderata.",
+    "confidence": 0.9999892115592957,
+    "bounding_box": [
+      [
+        449,
+        2356
+      ],
+      [
+        871,
+        2356
+      ],
+      [
+        871,
+        2390
+      ],
+      [
+        449,
+        2390
+      ]
+    ]
+  },
+  {
+    "text": "One is the total computational complexity per layer. Another is the amount of computation that can",
+    "confidence": 0.9994835257530212,
+    "bounding_box": [
+      [
+        447,
+        2420
+      ],
+      [
+        2102,
+        2420
+      ],
+      [
+        2102,
+        2463
+      ],
+      [
+        447,
+        2463
+      ]
+    ]
+  },
+  {
+    "text": "be parallelized, as measured by the minimum number of sequential operations required.",
+    "confidence": 0.9983524084091187,
+    "bounding_box": [
+      [
+        446,
+        2468
+      ],
+      [
+        1906,
+        2468
+      ],
+      [
+        1906,
+        2508
+      ],
+      [
+        446,
+        2508
+      ]
+    ]
+  },
+  {
+    "text": "The third is the path length between long-range dependencies in the network. Learning long-range",
+    "confidence": 0.9918022155761719,
+    "bounding_box": [
+      [
+        445,
+        2534
+      ],
+      [
+        2102,
+        2534
+      ],
+      [
+        2102,
+        2577
+      ],
+      [
+        445,
+        2577
+      ]
+    ]
+  },
+  {
+    "text": "dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the",
+    "confidence": 0.9976326823234558,
+    "bounding_box": [
+      [
+        447,
+        2582
+      ],
+      [
+        2102,
+        2582
+      ],
+      [
+        2102,
+        2622
+      ],
+      [
+        447,
+        2622
+      ]
+    ]
+  },
+  {
+    "text": "ability to learn such dependencies is the length of the paths forward and backward signals have to",
+    "confidence": 0.9999944567680359,
+    "bounding_box": [
+      [
+        447,
+        2626
+      ],
+      [
+        2102,
+        2626
+      ],
+      [
+        2102,
+        2666
+      ],
+      [
+        447,
+        2666
+      ]
+    ]
+  },
+  {
+    "text": "traverse in the network. The shorter these paths between any combination of positions in the input",
+    "confidence": 0.9956731796264648,
+    "bounding_box": [
+      [
+        445,
+        2670
+      ],
+      [
+        2103,
+        2671
+      ],
+      [
+        2103,
+        2712
+      ],
+      [
+        445,
+        2711
+      ]
+    ]
+  },
+  {
+    "text": "and output sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare",
+    "confidence": 0.9988365769386292,
+    "bounding_box": [
+      [
+        446,
+        2716
+      ],
+      [
+        2102,
+        2716
+      ],
+      [
+        2102,
+        2759
+      ],
+      [
+        446,
+        2759
+      ]
+    ]
+  },
+  {
+    "text": "the maximum path length between any two input and output positions in networks composed of the",
+    "confidence": 0.9916050434112549,
+    "bounding_box": [
+      [
+        446,
+        2761
+      ],
+      [
+        2102,
+        2761
+      ],
+      [
+        2102,
+        2804
+      ],
+      [
+        446,
+        2804
+      ]
+    ]
+  },
+  {
+    "text": "different layer types.",
+    "confidence": 0.9999952912330627,
+    "bounding_box": [
+      [
+        447,
+        2807
+      ],
+      [
+        793,
+        2809
+      ],
+      [
+        793,
+        2851
+      ],
+      [
+        447,
+        2848
+      ]
+    ]
+  },
+  {
+    "text": "As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially",
+    "confidence": 0.9997735619544983,
+    "bounding_box": [
+      [
+        444,
+        2873
+      ],
+      [
+        2102,
+        2874
+      ],
+      [
+        2102,
+        2919
+      ],
+      [
+        444,
+        2918
+      ]
+    ]
+  },
+  {
+    "text": "executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of",
+    "confidence": 0.9999713897705078,
+    "bounding_box": [
+      [
+        446,
+        2922
+      ],
+      [
+        2105,
+        2922
+      ],
+      [
+        2105,
+        2965
+      ],
+      [
+        446,
+        2965
+      ]
+    ]
+  },
+  {
+    "text": "computational complexity, self-attention layers are faster than recurrent layers when the sequence",
+    "confidence": 0.9979653358459473,
+    "bounding_box": [
+      [
+        445,
+        2967
+      ],
+      [
+        2102,
+        2966
+      ],
+      [
+        2102,
+        3010
+      ],
+      [
+        445,
+        3011
+      ]
+    ]
+  },
+  {
+    "text": "6",
+    "confidence": 0.9999852180480957,
+    "bounding_box": [
+      [
+        1260,
+        3091
+      ],
+      [
+        1290,
+        3091
+      ],
+      [
+        1290,
+        3131
+      ],
+      [
+        1260,
+        3131
+      ]
+    ]
+  }
+]

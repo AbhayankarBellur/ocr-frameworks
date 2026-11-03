@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Model and framework caches
+.cache/
+cache/
+models/
+model_cache/
+hf_cache/
+hub/
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.pdparams
+*.pdmodel
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Temporary/editor/OS files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Internal audit drafts are retained locally; distilled technical docs are in docs/
+/audit/
+/e2e_results/
+
+# Benchmark inputs, outputs, metrics, and resource logs are retained as evidence.

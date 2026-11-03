@@ -1,0 +1,84 @@
+{
+  "framework": "OpenOCR",
+  "openocr_version": "0.1.5",
+  "onnxruntime_version": "1.20.2",
+  "backend": "ONNX Runtime",
+  "device": "CPU",
+  "pages_processed": 5,
+  "total_inference_wall_time_seconds": 25.1599,
+  "total_recognized_lines": 396,
+  "pages": [
+    {
+      "page": 1,
+      "wall_time_seconds": 2.0882,
+      "recognized_lines": 56,
+      "timing": [
+        {
+          "time_cost": 2.008517026901245,
+          "detection_time": 0.23762178421020508,
+          "recognition_time": 1.77089524269104,
+          "avg_rec_time_cost": 0.16731936356116986
+        }
+      ],
+      "average_confidence": 0.9779
+    },
+    {
+      "page": 2,
+      "wall_time_seconds": 2.792,
+      "recognized_lines": 54,
+      "timing": [
+        {
+          "time_cost": 2.711068868637085,
+          "detection_time": 0.2244572639465332,
+          "recognition_time": 2.4866116046905518,
+          "avg_rec_time_cost": 0.23859061043837976
+        }
+      ],
+      "average_confidence": 0.9206
+    },
+    {
+      "page": 3,
+      "wall_time_seconds": 9.0066,
+      "recognized_lines": 61,
+      "timing": [
+        {
+          "time_cost": 8.85171389579773,
+          "detection_time": 0.20631051063537598,
+          "recognition_time": 8.645403385162354,
+          "avg_rec_time_cost": 0.7938976561436888
+        }
+      ],
+      "average_confidence": 0.9689
+    },
+    {
+      "page": 4,
+      "wall_time_seconds": 8.1198,
+      "recognized_lines": 81,
+      "timing": [
+        {
+          "time_cost": 7.807362079620361,
+          "detection_time": 1.568979024887085,
+          "recognition_time": 6.238383054733276,
+          "avg_rec_time_cost": 0.43577297140912313
+        }
+      ],
+      "average_confidence": 0.9843
+    },
+    {
+      "page": 5,
+      "wall_time_seconds": 3.1533,
+      "recognized_lines": 144,
+      "timing": [
+        {
+          "time_cost": 3.0704946517944336,
+          "detection_time": 0.216353178024292,
+          "recognition_time": 2.8541414737701416,
+          "avg_rec_time_cost": 0.10825162391140036
+        }
+      ],
+      "average_confidence": 0.9904
+    }
+  ],
+  "average_detection_confidence": 0.9745,
+  "result_parser": "OpenOCR filename-tab-JSON-array parser"
+}

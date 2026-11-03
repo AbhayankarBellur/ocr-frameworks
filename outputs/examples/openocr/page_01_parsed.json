@@ -1,0 +1,1239 @@
+{
+  "page": 1,
+  "recognized_lines": 56,
+  "average_confidence": 0.977890995996339,
+  "records": [
+    {
+      "transcription": "Output",
+      "points": [
+        [
+          1375,
+          299
+        ],
+        [
+          1493,
+          299
+        ],
+        [
+          1493,
+          337
+        ],
+        [
+          1375,
+          337
+        ]
+      ],
+      "score": 0.9998185634613037
+    },
+    {
+      "transcription": "Probabilities",
+      "points": [
+        [
+          1334,
+          344
+        ],
+        [
+          1535,
+          344
+        ],
+        [
+          1535,
+          382
+        ],
+        [
+          1334,
+          382
+        ]
+      ],
+      "score": 0.9647578597068787
+    },
+    {
+      "transcription": "Softmax",
+      "points": [
+        [
+          1370,
+          419
+        ],
+        [
+          1504,
+          427
+        ],
+        [
+          1502,
+          465
+        ],
+        [
+          1368,
+          456
+        ]
+      ],
+      "score": 0.9998577237129211
+    },
+    {
+      "transcription": "Linear",
+      "points": [
+        [
+          1379,
+          512
+        ],
+        [
+          1490,
+          512
+        ],
+        [
+          1490,
+          550
+        ],
+        [
+          1379,
+          550
+        ]
+      ],
+      "score": 0.9990301728248596
+    },
+    {
+      "transcription": "Add&Norm",
+      "points": [
+        [
+          1356,
+          598
+        ],
+        [
+          1546,
+          605
+        ],
+        [
+          1544,
+          643
+        ],
+        [
+          1354,
+          635
+        ]
+      ],
+      "score": 0.9786666631698608
+    },
+    {
+      "transcription": "Feed",
+      "points": [
+        [
+          1389,
+          660
+        ],
+        [
+          1479,
+          660
+        ],
+        [
+          1479,
+          698
+        ],
+        [
+          1389,
+          698
+        ]
+      ],
+      "score": 0.9992574453353882
+    },
+    {
+      "transcription": "Forward",
+      "points": [
+        [
+          1369,
+          698
+        ],
+        [
+          1497,
+          698
+        ],
+        [
+          1497,
+          736
+        ],
+        [
+          1369,
+          736
+        ]
+      ],
+      "score": 0.9998942017555237
+    },
+    {
+      "transcription": "Add & Norm",
+      "points": [
+        [
+          1334,
+          794
+        ],
+        [
+          1545,
+          794
+        ],
+        [
+          1545,
+          832
+        ],
+        [
+          1334,
+          832
+        ]
+      ],
+      "score": 0.9697492718696594
+    },
+    {
+      "transcription": "Add & Norm",
+      "points": [
+        [
+          1029,
+          828
+        ],
+        [
+          1213,
+          828
+        ],
+        [
+          1213,
+          863
+        ],
+        [
+          1029,
+          863
+        ]
+      ],
+      "score": 0.9544892311096191
+    },
+    {
+      "transcription": " Multi-Head ",
+      "points": [
+        [
+          1351,
+          849
+        ],
+        [
+          1524,
+          849
+        ],
+        [
+          1524,
+          883
+        ],
+        [
+          1351,
+          883
+        ]
+      ],
+      "score": 0.8954500555992126
+    },
+    {
+      "transcription": "Feed",
+      "points": [
+        [
+          1081,
+          883
+        ],
+        [
+          1157,
+          883
+        ],
+        [
+          1157,
+          921
+        ],
+        [
+          1081,
+          921
+        ]
+      ],
+      "score": 0.9988201856613159
+    },
+    {
+      "transcription": " Attention",
+      "points": [
+        [
+          1365,
+          887
+        ],
+        [
+          1504,
+          887
+        ],
+        [
+          1504,
+          925
+        ],
+        [
+          1365,
+          925
+        ]
+      ],
+      "score": 0.951495349407196
+    },
+    {
+      "transcription": " Forward",
+      "points": [
+        [
+          1043,
+          921
+        ],
+        [
+          1171,
+          921
+        ],
+        [
+          1171,
+          956
+        ],
+        [
+          1043,
+          956
+        ]
+      ],
+      "score": 0.956702470779419
+    },
+    {
+      "transcription": "Nx",
+      "points": [
+        [
+          1639,
+          918
+        ],
+        [
+          1698,
+          918
+        ],
+        [
+          1698,
+          956
+        ],
+        [
+          1639,
+          956
+        ]
+      ],
+      "score": 0.8270600438117981
+    },
+    {
+      "transcription": "Add & Norm",
+      "points": [
+        [
+          1334,
+          1014
+        ],
+        [
+          1545,
+          1014
+        ],
+        [
+          1545,
+          1052
+        ],
+        [
+          1334,
+          1052
+        ]
+      ],
+      "score": 0.9651918411254883
+    },
+    {
+      "transcription": "Nx",
+      "points": [
+        [
+          838,
+          1038
+        ],
+        [
+          887,
+          1038
+        ],
+        [
+          887,
+          1066
+        ],
+        [
+          838,
+          1066
+        ]
+      ],
+      "score": 0.9784884452819824
+    },
+    {
+      "transcription": "Add & Norm",
+      "points": [
+        [
+          1012,
+          1045
+        ],
+        [
+          1213,
+          1049
+        ],
+        [
+          1212,
+          1087
+        ],
+        [
+          1011,
+          1083
+        ]
+      ],
+      "score": 0.9493836164474487
+    },
+    {
+      "transcription": "Masked",
+      "points": [
+        [
+          1375,
+          1066
+        ],
+        [
+          1504,
+          1066
+        ],
+        [
+          1504,
+          1103
+        ],
+        [
+          1375,
+          1103
+        ]
+      ],
+      "score": 0.9995613098144531
+    },
+    {
+      "transcription": "Multi-Head",
+      "points": [
+        [
+          1032,
+          1103
+        ],
+        [
+          1192,
+          1103
+        ],
+        [
+          1192,
+          1141
+        ],
+        [
+          1032,
+          1141
+        ]
+      ],
+      "score": 0.9970413446426392
+    },
+    {
+      "transcription": "Multi-Head",
+      "points": [
+        [
+          1362,
+          1107
+        ],
+        [
+          1514,
+          1107
+        ],
+        [
+          1514,
+          1141
+        ],
+        [
+          1362,
+          1141
+        ]
+      ],
+      "score": 0.9981285929679871
+    },
+    {
+      "transcription": " Attention",
+      "points": [
+        [
+          1039,
+          1141
+        ],
+        [
+          1178,
+          1141
+        ],
+        [
+          1178,
+          1179
+        ],
+        [
+          1039,
+          1179
+        ]
+      ],
+      "score": 0.9751225709915161
+    },
+    {
+      "transcription": " Attention",
+      "points": [
+        [
+          1369,
+          1141
+        ],
+        [
+          1504,
+          1141
+        ],
+        [
+          1504,
+          1179
+        ],
+        [
+          1369,
+          1179
+        ]
+      ],
+      "score": 0.9164606928825378
+    },
+    {
+      "transcription": "Positional",
+      "points": [
+        [
+          818,
+          1289
+        ],
+        [
+          977,
+          1289
+        ],
+        [
+          977,
+          1327
+        ],
+        [
+          818,
+          1327
+        ]
+      ],
+      "score": 0.9998921155929565
+    },
+    {
+      "transcription": "Positional",
+      "points": [
+        [
+          1576,
+          1296
+        ],
+        [
+          1732,
+          1296
+        ],
+        [
+          1732,
+          1334
+        ],
+        [
+          1576,
+          1334
+        ]
+      ],
+      "score": 0.9924934506416321
+    },
+    {
+      "transcription": "Encoding",
+      "points": [
+        [
+          816,
+          1323
+        ],
+        [
+          978,
+          1331
+        ],
+        [
+          975,
+          1379
+        ],
+        [
+          813,
+          1371
+        ]
+      ],
+      "score": 0.9999864101409912
+    },
+    {
+      "transcription": "Encoding",
+      "points": [
+        [
+          1564,
+          1330
+        ],
+        [
+          1730,
+          1338
+        ],
+        [
+          1727,
+          1386
+        ],
+        [
+          1562,
+          1378
+        ]
+      ],
+      "score": 0.9999712705612183
+    },
+    {
+      "transcription": "Input ",
+      "points": [
+        [
+          1074,
+          1396
+        ],
+        [
+          1157,
+          1396
+        ],
+        [
+          1157,
+          1433
+        ],
+        [
+          1074,
+          1433
+        ]
+      ],
+      "score": 0.9745360016822815
+    },
+    {
+      "transcription": "Output",
+      "points": [
+        [
+          1382,
+          1392
+        ],
+        [
+          1490,
+          1392
+        ],
+        [
+          1490,
+          1430
+        ],
+        [
+          1382,
+          1430
+        ]
+      ],
+      "score": 0.9992351531982422
+    },
+    {
+      "transcription": "Embedding",
+      "points": [
+        [
+          1022,
+          1433
+        ],
+        [
+          1199,
+          1433
+        ],
+        [
+          1199,
+          1471
+        ],
+        [
+          1022,
+          1471
+        ]
+      ],
+      "score": 0.9999375939369202
+    },
+    {
+      "transcription": "Embedding",
+      "points": [
+        [
+          1348,
+          1433
+        ],
+        [
+          1528,
+          1433
+        ],
+        [
+          1528,
+          1468
+        ],
+        [
+          1348,
+          1468
+        ]
+      ],
+      "score": 0.9998061060905457
+    },
+    {
+      "transcription": "Inputs",
+      "points": [
+        [
+          1053,
+          1550
+        ],
+        [
+          1168,
+          1550
+        ],
+        [
+          1168,
+          1598
+        ],
+        [
+          1053,
+          1598
+        ]
+      ],
+      "score": 0.9837501645088196
+    },
+    {
+      "transcription": "Outputs",
+      "points": [
+        [
+          1362,
+          1550
+        ],
+        [
+          1507,
+          1550
+        ],
+        [
+          1507,
+          1598
+        ],
+        [
+          1362,
+          1598
+        ]
+      ],
+      "score": 0.9922056794166565
+    },
+    {
+      "transcription": "(shifted right)",
+      "points": [
+        [
+          1330,
+          1602
+        ],
+        [
+          1538,
+          1602
+        ],
+        [
+          1538,
+          1640
+        ],
+        [
+          1330,
+          1640
+        ]
+      ],
+      "score": 0.9936716556549072
+    },
+    {
+      "transcription": "Figure 1: The Transformer - model architecture.",
+      "points": [
+        [
+          870,
+          1681
+        ],
+        [
+          1673,
+          1681
+        ],
+        [
+          1673,
+          1726
+        ],
+        [
+          870,
+          1726
+        ]
+      ],
+      "score": 0.9925296306610107
+    },
+    {
+      "transcription": " The Transformer follows this overall architecture using stacked self-attention and point-wise, fully",
+      "points": [
+        [
+          440,
+          1812
+        ],
+        [
+          2096,
+          1812
+        ],
+        [
+          2096,
+          1856
+        ],
+        [
+          440,
+          1856
+        ]
+      ],
+      "score": 0.9900809526443481
+    },
+    {
+      "transcription": " connected layers for both the encoder and decoder, shown in the left and right halves of Figure i,",
+      "points": [
+        [
+          440,
+          1856
+        ],
+        [
+          2103,
+          1856
+        ],
+        [
+          2103,
+          1901
+        ],
+        [
+          440,
+          1901
+        ]
+      ],
+      "score": 0.9900578260421753
+    },
+    {
+      "transcription": "respectively.",
+      "points": [
+        [
+          443,
+          1904
+        ],
+        [
+          658,
+          1904
+        ],
+        [
+          658,
+          1952
+        ],
+        [
+          443,
+          1952
+        ]
+      ],
+      "score": 0.9694076776504517
+    },
+    {
+      "transcription": "3.1Encoder and Decoder Stacks",
+      "points": [
+        [
+          440,
+          2001
+        ],
+        [
+          1064,
+          2004
+        ],
+        [
+          1063,
+          2052
+        ],
+        [
+          440,
+          2049
+        ]
+      ],
+      "score": 0.9596992135047913
+    },
+    {
+      "transcription": "Encoder:The encoder is composed of a stack of N = 6 identical layers. Each layer has two",
+      "points": [
+        [
+          440,
+          2087
+        ],
+        [
+          2103,
+          2090
+        ],
+        [
+          2103,
+          2138
+        ],
+        [
+          440,
+          2135
+        ]
+      ],
+      "score": 0.9900127649307251
+    },
+    {
+      "transcription": "sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-",
+      "points": [
+        [
+          443,
+          2138
+        ],
+        [
+          2107,
+          2138
+        ],
+        [
+          2107,
+          2183
+        ],
+        [
+          443,
+          2183
+        ]
+      ],
+      "score": 0.9977744817733765
+    },
+    {
+      "transcription": "wise fully connected feed-forward network. We employ a residual connection [11] around each of",
+      "points": [
+        [
+          443,
+          2179
+        ],
+        [
+          2103,
+          2179
+        ],
+        [
+          2103,
+          2228
+        ],
+        [
+          443,
+          2228
+        ]
+      ],
+      "score": 0.9858416318893433
+    },
+    {
+      "transcription": "the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is",
+      "points": [
+        [
+          443,
+          2228
+        ],
+        [
+          2103,
+          2228
+        ],
+        [
+          2103,
+          2272
+        ],
+        [
+          443,
+          2272
+        ]
+      ],
+      "score": 0.9923434853553772
+    },
+    {
+      "transcription": "LayerNorm( + Sublayer()), where Sublayer() is the function implemented by the sub-layer",
+      "points": [
+        [
+          443,
+          2272
+        ],
+        [
+          2103,
+          2272
+        ],
+        [
+          2103,
+          2317
+        ],
+        [
+          443,
+          2317
+        ]
+      ],
+      "score": 0.989898145198822
+    },
+    {
+      "transcription": "itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding",
+      "points": [
+        [
+          443,
+          2317
+        ],
+        [
+          2103,
+          2317
+        ],
+        [
+          2103,
+          2365
+        ],
+        [
+          443,
+          2365
+        ]
+      ],
+      "score": 0.9932023286819458
+    },
+    {
+      "transcription": "layers, produce outputs of dimension dmodel = 512.",
+      "points": [
+        [
+          443,
+          2365
+        ],
+        [
+          1316,
+          2358
+        ],
+        [
+          1317,
+          2406
+        ],
+        [
+          444,
+          2413
+        ]
+      ],
+      "score": 0.9840709567070007
+    },
+    {
+      "transcription": "Decoder:  The decoder is also composed of a stack of N = 6 identical layers. In addition to the two",
+      "points": [
+        [
+          440,
+          2454
+        ],
+        [
+          2103,
+          2458
+        ],
+        [
+          2103,
+          2506
+        ],
+        [
+          440,
+          2502
+        ]
+      ],
+      "score": 0.9818261861801147
+    },
+    {
+      "transcription": "sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head",
+      "points": [
+        [
+          443,
+          2506
+        ],
+        [
+          2103,
+          2506
+        ],
+        [
+          2103,
+          2551
+        ],
+        [
+          443,
+          2551
+        ]
+      ],
+      "score": 0.9885300397872925
+    },
+    {
+      "transcription": "attention over the output of the encoder stack. Similar to the encoder, we employ residual connections",
+      "points": [
+        [
+          443,
+          2554
+        ],
+        [
+          2103,
+          2554
+        ],
+        [
+          2103,
+          2599
+        ],
+        [
+          443,
+          2599
+        ]
+      ],
+      "score": 0.989078164100647
+    },
+    {
+      "transcription": " around each of the sub-layers, followed by layer normalization. We also modify the self-attention",
+      "points": [
+        [
+          440,
+          2595
+        ],
+        [
+          2100,
+          2592
+        ],
+        [
+          2100,
+          2640
+        ],
+        [
+          440,
+          2643
+        ]
+      ],
+      "score": 0.9902584552764893
+    },
+    {
+      "transcription": " sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This",
+      "points": [
+        [
+          436,
+          2640
+        ],
+        [
+          2106,
+          2633
+        ],
+        [
+          2107,
+          2688
+        ],
+        [
+          437,
+          2695
+        ]
+      ],
+      "score": 0.9898058176040649
+    },
+    {
+      "transcription": "masking, combined with fact that the output embeddings are offset by one position, ensures that the",
+      "points": [
+        [
+          443,
+          2688
+        ],
+        [
+          2103,
+          2688
+        ],
+        [
+          2103,
+          2736
+        ],
+        [
+          443,
+          2736
+        ]
+      ],
+      "score": 0.9978845119476318
+    },
+    {
+      "transcription": "predictions for position i can depend only on the known outputs at positions less than i.",
+      "points": [
+        [
+          443,
+          2733
+        ],
+        [
+          1902,
+          2733
+        ],
+        [
+          1902,
+          2781
+        ],
+        [
+          443,
+          2781
+        ]
+      ],
+      "score": 0.994143009185791
+    },
+    {
+      "transcription": "3.2Attention",
+      "points": [
+        [
+          437,
+          2829
+        ],
+        [
+          721,
+          2833
+        ],
+        [
+          720,
+          2881
+        ],
+        [
+          436,
+          2877
+        ]
+      ],
+      "score": 0.9651029109954834
+    },
+    {
+      "transcription": "An attention function can be described as mapping a query and a set of key-value pairs to an output,",
+      "points": [
+        [
+          443,
+          2918
+        ],
+        [
+          2103,
+          2918
+        ],
+        [
+          2103,
+          2963
+        ],
+        [
+          443,
+          2963
+        ]
+      ],
+      "score": 0.996052622795105
+    },
+    {
+      "transcription": "where the query, keys, values, and output are all vectors. The output is computed as a weighted sum",
+      "points": [
+        [
+          447,
+          2963
+        ],
+        [
+          2103,
+          2963
+        ],
+        [
+          2103,
+          3008
+        ],
+        [
+          447,
+          3008
+        ]
+      ],
+      "score": 0.9878256320953369
+    },
+    {
+      "transcription": "9",
+      "points": [
+        [
+          1272,
+          3087
+        ],
+        [
+          1294,
+          3109
+        ],
+        [
+          1275,
+          3128
+        ],
+        [
+          1252,
+          3106
+        ]
+      ],
+      "score": 0.836556077003479
+    }
+  ]
+}

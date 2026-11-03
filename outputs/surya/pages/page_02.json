@@ -1,0 +1,1156 @@
+{
+  "page": 2,
+  "image": "page_02.png",
+  "dimensions": [
+    2550,
+    3300
+  ],
+  "inference_time_seconds": 120.3284,
+  "recognized_lines": 52,
+  "text_lines": [
+    {
+      "text": "Scaled Dot-Product Attention",
+      "polygon": [
+        [
+          609.0,
+          297.0
+        ],
+        [
+          1115.0,
+          297.0
+        ],
+        [
+          1115.0,
+          330.0
+        ],
+        [
+          609.0,
+          330.0
+        ]
+      ],
+      "confidence": 0.9880519807338715
+    },
+    {
+      "text": "Multi-Head Attention",
+      "polygon": [
+        [
+          1508.0,
+          297.0
+        ],
+        [
+          1880.0,
+          297.0
+        ],
+        [
+          1880.0,
+          330.0
+        ],
+        [
+          1508.0,
+          330.0
+        ]
+      ],
+      "confidence": 0.9783948741175912
+    },
+    {
+      "text": "Linear",
+      "polygon": [
+        [
+          1610.0,
+          397.0
+        ],
+        [
+          1700.0,
+          397.0
+        ],
+        [
+          1700.0,
+          427.0
+        ],
+        [
+          1610.0,
+          427.0
+        ]
+      ],
+      "confidence": 0.9261261650494167
+    },
+    {
+      "text": "MatMul",
+      "polygon": [
+        [
+          845.0,
+          444.0
+        ],
+        [
+          952.0,
+          444.0
+        ],
+        [
+          952.0,
+          472.0
+        ],
+        [
+          845.0,
+          472.0
+        ]
+      ],
+      "confidence": 0.9566110287393842
+    },
+    {
+      "text": "Concat",
+      "polygon": [
+        [
+          1600.0,
+          504.0
+        ],
+        [
+          1708.0,
+          504.0
+        ],
+        [
+          1708.0,
+          531.0
+        ],
+        [
+          1600.0,
+          531.0
+        ]
+      ],
+      "confidence": 0.9613851223673139
+    },
+    {
+      "text": "SoftMax",
+      "polygon": [
+        [
+          765.0,
+          531.0
+        ],
+        [
+          890.0,
+          531.0
+        ],
+        [
+          890.0,
+          561.0
+        ],
+        [
+          765.0,
+          561.0
+        ]
+      ],
+      "confidence": 0.9650065451860428
+    },
+    {
+      "text": "Mask (opt.)",
+      "polygon": [
+        [
+          743.0,
+          615.0
+        ],
+        [
+          907.0,
+          619.0
+        ],
+        [
+          904.0,
+          653.0
+        ],
+        [
+          739.0,
+          649.0
+        ]
+      ],
+      "confidence": 0.9925560263487009
+    },
+    {
+      "text": "Scaled Dot-Product",
+      "polygon": [
+        [
+          1517.0,
+          627.0
+        ],
+        [
+          1797.0,
+          627.0
+        ],
+        [
+          1797.0,
+          656.0
+        ],
+        [
+          1517.0,
+          656.0
+        ]
+      ],
+      "confidence": 0.9777441769838333
+    },
+    {
+      "text": "Attention",
+      "polygon": [
+        [
+          1598.0,
+          667.0
+        ],
+        [
+          1727.0,
+          667.0
+        ],
+        [
+          1727.0,
+          695.0
+        ],
+        [
+          1598.0,
+          695.0
+        ]
+      ],
+      "confidence": 0.9519476354122162
+    },
+    {
+      "text": "Scale",
+      "polygon": [
+        [
+          784.0,
+          704.0
+        ],
+        [
+          871.0,
+          704.0
+        ],
+        [
+          871.0,
+          733.0
+        ],
+        [
+          784.0,
+          733.0
+        ]
+      ],
+      "confidence": 0.9865220487117767
+    },
+    {
+      "text": "Linear",
+      "polygon": [
+        [
+          1759.0,
+          789.0
+        ],
+        [
+          1844.0,
+          789.0
+        ],
+        [
+          1844.0,
+          816.0
+        ],
+        [
+          1759.0,
+          816.0
+        ]
+      ],
+      "confidence": 0.9753327114241463
+    },
+    {
+      "text": "Linear",
+      "polygon": [
+        [
+          1466.0,
+          790.0
+        ],
+        [
+          1551.0,
+          790.0
+        ],
+        [
+          1551.0,
+          816.0
+        ],
+        [
+          1466.0,
+          816.0
+        ]
+      ],
+      "confidence": 0.9719245518956866
+    },
+    {
+      "text": "Linear",
+      "polygon": [
+        [
+          1608.0,
+          791.0
+        ],
+        [
+          1702.0,
+          791.0
+        ],
+        [
+          1702.0,
+          817.0
+        ],
+        [
+          1608.0,
+          817.0
+        ]
+      ],
+      "confidence": 0.9492932728358677
+    },
+    {
+      "text": "MatMul",
+      "polygon": [
+        [
+          771.0,
+          793.0
+        ],
+        [
+          879.0,
+          793.0
+        ],
+        [
+          879.0,
+          822.0
+        ],
+        [
+          771.0,
+          822.0
+        ]
+      ],
+      "confidence": 0.9579138500349862
+    },
+    {
+      "text": "Κ",
+      "polygon": [
+        [
+          856.0,
+          883.0
+        ],
+        [
+          892.0,
+          883.0
+        ],
+        [
+          892.0,
+          914.0
+        ],
+        [
+          856.0,
+          914.0
+        ]
+      ],
+      "confidence": 0.7142732441425323
+    },
+    {
+      "text": "Q",
+      "polygon": [
+        [
+          760.0,
+          886.0
+        ],
+        [
+          790.0,
+          886.0
+        ],
+        [
+          790.0,
+          915.0
+        ],
+        [
+          760.0,
+          915.0
+        ]
+      ],
+      "confidence": 0.9875272810459137
+    },
+    {
+      "text": "K",
+      "polygon": [
+        [
+          1638.0,
+          958.0
+        ],
+        [
+          1672.0,
+          958.0
+        ],
+        [
+          1672.0,
+          990.0
+        ],
+        [
+          1638.0,
+          990.0
+        ]
+      ],
+      "confidence": 0.6767540872097015
+    },
+    {
+      "text": "Q",
+      "polygon": [
+        [
+          1785.0,
+          961.0
+        ],
+        [
+          1814.0,
+          961.0
+        ],
+        [
+          1814.0,
+          991.0
+        ],
+        [
+          1785.0,
+          991.0
+        ]
+      ],
+      "confidence": 0.9226489067077637
+    },
+    {
+      "text": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+      "polygon": [
+        [
+          444.0,
+          1144.0
+        ],
+        [
+          2103.0,
+          1144.0
+        ],
+        [
+          2103.0,
+          1180.0
+        ],
+        [
+          444.0,
+          1180.0
+        ]
+      ],
+      "confidence": 0.9996104166679776
+    },
+    {
+      "text": "attention layers running in parallel.",
+      "polygon": [
+        [
+          445.0,
+          1196.0
+        ],
+        [
+          1036.0,
+          1190.0
+        ],
+        [
+          1037.0,
+          1225.0
+        ],
+        [
+          446.0,
+          1231.0
+        ]
+      ],
+      "confidence": 0.9998588225780389
+    },
+    {
+      "text": "of the values, where the weight assigned to each value is computed by a compatibility function of the",
+      "polygon": [
+        [
+          446.0,
+          1322.0
+        ],
+        [
+          2110.0,
+          1322.0
+        ],
+        [
+          2110.0,
+          1358.0
+        ],
+        [
+          446.0,
+          1358.0
+        ]
+      ],
+      "confidence": 0.9998861227220702
+    },
+    {
+      "text": "query with the corresponding key.",
+      "polygon": [
+        [
+          446.0,
+          1369.0
+        ],
+        [
+          1017.0,
+          1369.0
+        ],
+        [
+          1017.0,
+          1405.0
+        ],
+        [
+          446.0,
+          1405.0
+        ]
+      ],
+      "confidence": 0.9996021100452968
+    },
+    {
+      "text": "<b>Scaled Dot-Product Attention</b>",
+      "polygon": [
+        [
+          565.0,
+          1464.0
+        ],
+        [
+          1105.0,
+          1464.0
+        ],
+        [
+          1105.0,
+          1498.0
+        ],
+        [
+          565.0,
+          1498.0
+        ]
+      ],
+      "confidence": 0.9897188041359186
+    },
+    {
+      "text": "3.2.1",
+      "polygon": [
+        [
+          446.0,
+          1466.0
+        ],
+        [
+          548.0,
+          1466.0
+        ],
+        [
+          548.0,
+          1498.0
+        ],
+        [
+          446.0,
+          1498.0
+        ]
+      ],
+      "confidence": 0.6537457009156545
+    },
+    {
+      "text": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of",
+      "polygon": [
+        [
+          446.0,
+          1542.0
+        ],
+        [
+          2110.0,
+          1542.0
+        ],
+        [
+          2110.0,
+          1578.0
+        ],
+        [
+          446.0,
+          1578.0
+        ]
+      ],
+      "confidence": 0.9994678015660758
+    },
+    {
+      "text": "queries and keys of dimension <math>d_k</math>, and values of dimension <math>d_v</math>. We compute the dot products of the",
+      "polygon": [
+        [
+          446.0,
+          1587.0
+        ],
+        [
+          2107.0,
+          1587.0
+        ],
+        [
+          2107.0,
+          1624.0
+        ],
+        [
+          446.0,
+          1624.0
+        ]
+      ],
+      "confidence": 0.9991194032487415
+    },
+    {
+      "text": "query with all keys, divide each by <math>\\sqrt{d_k}</math>, and apply a softmax function to obtain the weights on the",
+      "polygon": [
+        [
+          446.0,
+          1630.0
+        ],
+        [
+          2108.0,
+          1630.0
+        ],
+        [
+          2108.0,
+          1669.0
+        ],
+        [
+          446.0,
+          1669.0
+        ]
+      ],
+      "confidence": 0.9981770526279102
+    },
+    {
+      "text": "values.",
+      "polygon": [
+        [
+          446.0,
+          1680.0
+        ],
+        [
+          567.0,
+          1680.0
+        ],
+        [
+          567.0,
+          1713.0
+        ],
+        [
+          446.0,
+          1713.0
+        ]
+      ],
+      "confidence": 0.9970460600323148
+    },
+    {
+      "text": "In practice, we compute the attention function on a set of queries simultaneously, packed together",
+      "polygon": [
+        [
+          446.0,
+          1747.0
+        ],
+        [
+          2110.0,
+          1747.0
+        ],
+        [
+          2110.0,
+          1783.0
+        ],
+        [
+          446.0,
+          1783.0
+        ]
+      ],
+      "confidence": 0.9998086667060853
+    },
+    {
+      "text": "into a matrix <math>Q</math>. The keys and values are also packed together into matrices <math>K</math> and <math>V</math>. We compute",
+      "polygon": [
+        [
+          442.0,
+          1791.0
+        ],
+        [
+          2108.0,
+          1791.0
+        ],
+        [
+          2108.0,
+          1828.0
+        ],
+        [
+          442.0,
+          1828.0
+        ]
+      ],
+      "confidence": 0.9924519755519353
+    },
+    {
+      "text": "the matrix of outputs as:",
+      "polygon": [
+        [
+          446.0,
+          1838.0
+        ],
+        [
+          858.0,
+          1838.0
+        ],
+        [
+          858.0,
+          1873.0
+        ],
+        [
+          446.0,
+          1873.0
+        ]
+      ],
+      "confidence": 0.9994111193550957
+    },
+    {
+      "text": "Attention<math>(Q, K, V) = \\operatorname{softmax}(\\frac{QK^T}{\\sqrt{d_k}})V</math>",
+      "polygon": [
+        [
+          901.0,
+          1940.0
+        ],
+        [
+          1638.0,
+          1940.0
+        ],
+        [
+          1638.0,
+          2032.0
+        ],
+        [
+          901.0,
+          2032.0
+        ]
+      ],
+      "confidence": 0.9761778816983506
+    },
+    {
+      "text": "(1)",
+      "polygon": [
+        [
+          2050.0,
+          1974.0
+        ],
+        [
+          2101.0,
+          1974.0
+        ],
+        [
+          2101.0,
+          2009.0
+        ],
+        [
+          2050.0,
+          2009.0
+        ]
+      ],
+      "confidence": 0.596475251019001
+    },
+    {
+      "text": "The two most commonly used attention functions are additive attention [2], and dot-product (multi-",
+      "polygon": [
+        [
+          444.0,
+          2082.0
+        ],
+        [
+          2112.0,
+          2082.0
+        ],
+        [
+          2112.0,
+          2119.0
+        ],
+        [
+          444.0,
+          2119.0
+        ]
+      ],
+      "confidence": 0.9997102785110473
+    },
+    {
+      "text": "plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor",
+      "polygon": [
+        [
+          446.0,
+          2127.0
+        ],
+        [
+          2110.0,
+          2127.0
+        ],
+        [
+          2110.0,
+          2164.0
+        ],
+        [
+          446.0,
+          2164.0
+        ]
+      ],
+      "confidence": 0.99968894753816
+    },
+    {
+      "text": "of <math>\\frac{1}{\\sqrt{d_k}}</math>. Additive attention computes the compatibility function using a feed-forward network with",
+      "polygon": [
+        [
+          437.0,
+          2170.0
+        ],
+        [
+          2108.0,
+          2170.0
+        ],
+        [
+          2108.0,
+          2220.0
+        ],
+        [
+          437.0,
+          2220.0
+        ]
+      ],
+      "confidence": 0.998446188235687
+    },
+    {
+      "text": "a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is",
+      "polygon": [
+        [
+          445.0,
+          2229.0
+        ],
+        [
+          2105.0,
+          2223.0
+        ],
+        [
+          2106.0,
+          2262.0
+        ],
+        [
+          446.0,
+          2269.0
+        ]
+      ],
+      "confidence": 0.9999831920745326
+    },
+    {
+      "text": "much faster and more space-efficient in practice, since it can be implemented using highly optimized",
+      "polygon": [
+        [
+          446.0,
+          2274.0
+        ],
+        [
+          2108.0,
+          2274.0
+        ],
+        [
+          2108.0,
+          2310.0
+        ],
+        [
+          446.0,
+          2310.0
+        ]
+      ],
+      "confidence": 0.999867638536528
+    },
+    {
+      "text": "matrix multiplication code.",
+      "polygon": [
+        [
+          444.0,
+          2319.0
+        ],
+        [
+          903.0,
+          2319.0
+        ],
+        [
+          903.0,
+          2355.0
+        ],
+        [
+          444.0,
+          2355.0
+        ]
+      ],
+      "confidence": 0.9993023111902434
+    },
+    {
+      "text": "While for small values of <math>d_k</math> the two mechanisms perform similarly, additive attention outperforms",
+      "polygon": [
+        [
+          439.0,
+          2387.0
+        ],
+        [
+          2105.0,
+          2387.0
+        ],
+        [
+          2105.0,
+          2423.0
+        ],
+        [
+          439.0,
+          2423.0
+        ]
+      ],
+      "confidence": 0.99908051560226
+    },
+    {
+      "text": "dot product attention without scaling for larger values of <math>d_k</math> [3]. We suspect that for large values of",
+      "polygon": [
+        [
+          446.0,
+          2433.0
+        ],
+        [
+          2110.0,
+          2429.0
+        ],
+        [
+          2110.0,
+          2466.0
+        ],
+        [
+          446.0,
+          2470.0
+        ]
+      ],
+      "confidence": 0.9979584763447443
+    },
+    {
+      "text": "<math>d_k</math>, the dot products grow large in magnitude, pushing the softmax function into regions where it has",
+      "polygon": [
+        [
+          446.0,
+          2478.0
+        ],
+        [
+          2108.0,
+          2478.0
+        ],
+        [
+          2108.0,
+          2515.0
+        ],
+        [
+          446.0,
+          2515.0
+        ]
+      ],
+      "confidence": 0.9985447615947364
+    },
+    {
+      "text": "extremely small gradients <sup>4</sup>. To counteract this effect, we scale the dot products by <math>\\frac{1}{\\sqrt{dx}}</math>.",
+      "polygon": [
+        [
+          444.0,
+          2519.0
+        ],
+        [
+          1918.0,
+          2519.0
+        ],
+        [
+          1918.0,
+          2567.0
+        ],
+        [
+          444.0,
+          2567.0
+        ]
+      ],
+      "confidence": 0.9483303821512631
+    },
+    {
+      "text": "<b>Multi-Head Attention</b>",
+      "polygon": [
+        [
+          565.0,
+          2629.0
+        ],
+        [
+          966.0,
+          2629.0
+        ],
+        [
+          966.0,
+          2664.0
+        ],
+        [
+          565.0,
+          2664.0
+        ]
+      ],
+      "confidence": 0.9844435304403305
+    },
+    {
+      "text": "3.2.2",
+      "polygon": [
+        [
+          446.0,
+          2632.0
+        ],
+        [
+          548.0,
+          2632.0
+        ],
+        [
+          548.0,
+          2662.0
+        ],
+        [
+          446.0,
+          2662.0
+        ]
+      ],
+      "confidence": 0.6957629024982452
+    },
+    {
+      "text": "Instead of performing a single attention function with <math>d_{\\text{model}}</math>-dimensional keys, values and queries,",
+      "polygon": [
+        [
+          446.0,
+          2707.0
+        ],
+        [
+          2110.0,
+          2707.0
+        ],
+        [
+          2110.0,
+          2743.0
+        ],
+        [
+          446.0,
+          2743.0
+        ]
+      ],
+      "confidence": 0.9947860434389951
+    },
+    {
+      "text": "we found it beneficial to linearly project the queries, keys and values h times with different, learned",
+      "polygon": [
+        [
+          446.0,
+          2752.0
+        ],
+        [
+          2108.0,
+          2752.0
+        ],
+        [
+          2108.0,
+          2789.0
+        ],
+        [
+          446.0,
+          2789.0
+        ]
+      ],
+      "confidence": 0.9939201406070164
+    },
+    {
+      "text": "linear projections to <math>d_k</math>, <math>d_k</math> and <math>d_v</math> dimensions, respectively. On each of these projected versions of",
+      "polygon": [
+        [
+          444.0,
+          2797.0
+        ],
+        [
+          2110.0,
+          2797.0
+        ],
+        [
+          2110.0,
+          2834.0
+        ],
+        [
+          444.0,
+          2834.0
+        ]
+      ],
+      "confidence": 0.9985134298247951
+    },
+    {
+      "text": "queries, keys and values we then perform the attention function in parallel, yielding <math>d_v</math>-dimensional",
+      "polygon": [
+        [
+          446.0,
+          2843.0
+        ],
+        [
+          2105.0,
+          2843.0
+        ],
+        [
+          2105.0,
+          2881.0
+        ],
+        [
+          446.0,
+          2881.0
+        ]
+      ],
+      "confidence": 0.9992569066443533
+    },
+    {
+      "text": "<sup>4</sup>To illustrate why the dot products get large, assume that the components of <math>q</math> and <math>k</math> are independent random",
+      "polygon": [
+        [
+          499.0,
+          2923.0
+        ],
+        [
+          2108.0,
+          2923.0
+        ],
+        [
+          2108.0,
+          2959.0
+        ],
+        [
+          499.0,
+          2959.0
+        ]
+      ],
+      "confidence": 0.9889891789904957
+    },
+    {
+      "text": "variables with mean 0 and variance 1. Then their dot product, <math>q \\cdot k = \\sum_{i=1}^{d_k} q_i k_i</math>, has mean 0 and variance <math>d_k</math>.",
+      "polygon": [
+        [
+          444.0,
+          2967.0
+        ],
+        [
+          2103.0,
+          2967.0
+        ],
+        [
+          2103.0,
+          3008.0
+        ],
+        [
+          444.0,
+          3008.0
+        ]
+      ],
+      "confidence": 0.9974274626484624
+    },
+    {
+      "text": "4",
+      "polygon": [
+        [
+          1260.0,
+          3097.0
+        ],
+        [
+          1292.0,
+          3097.0
+        ],
+        [
+          1292.0,
+          3129.0
+        ],
+        [
+          1260.0,
+          3129.0
+        ]
+      ],
+      "confidence": 0.9757404625415802
+    }
+  ]
+}

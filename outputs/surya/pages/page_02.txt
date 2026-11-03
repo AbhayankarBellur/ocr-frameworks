@@ -1,0 +1,52 @@
+Scaled Dot-Product Attention
+Multi-Head Attention
+Linear
+MatMul
+Concat
+SoftMax
+Mask (opt.)
+Scaled Dot-Product
+Attention
+Scale
+Linear
+Linear
+Linear
+MatMul
+Κ
+Q
+K
+Q
+Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several
+attention layers running in parallel.
+of the values, where the weight assigned to each value is computed by a compatibility function of the
+query with the corresponding key.
+<b>Scaled Dot-Product Attention</b>
+3.2.1
+We call our particular attention "Scaled Dot-Product Attention" (Figure 2). The input consists of
+queries and keys of dimension <math>d_k</math>, and values of dimension <math>d_v</math>. We compute the dot products of the
+query with all keys, divide each by <math>\sqrt{d_k}</math>, and apply a softmax function to obtain the weights on the
+values.
+In practice, we compute the attention function on a set of queries simultaneously, packed together
+into a matrix <math>Q</math>. The keys and values are also packed together into matrices <math>K</math> and <math>V</math>. We compute
+the matrix of outputs as:
+Attention<math>(Q, K, V) = \operatorname{softmax}(\frac{QK^T}{\sqrt{d_k}})V</math>
+(1)
+The two most commonly used attention functions are additive attention [2], and dot-product (multi-
+plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor
+of <math>\frac{1}{\sqrt{d_k}}</math>. Additive attention computes the compatibility function using a feed-forward network with
+a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is
+much faster and more space-efficient in practice, since it can be implemented using highly optimized
+matrix multiplication code.
+While for small values of <math>d_k</math> the two mechanisms perform similarly, additive attention outperforms
+dot product attention without scaling for larger values of <math>d_k</math> [3]. We suspect that for large values of
+<math>d_k</math>, the dot products grow large in magnitude, pushing the softmax function into regions where it has
+extremely small gradients <sup>4</sup>. To counteract this effect, we scale the dot products by <math>\frac{1}{\sqrt{dx}}</math>.
+<b>Multi-Head Attention</b>
+3.2.2
+Instead of performing a single attention function with <math>d_{\text{model}}</math>-dimensional keys, values and queries,
+we found it beneficial to linearly project the queries, keys and values h times with different, learned
+linear projections to <math>d_k</math>, <math>d_k</math> and <math>d_v</math> dimensions, respectively. On each of these projected versions of
+queries, keys and values we then perform the attention function in parallel, yielding <math>d_v</math>-dimensional
+<sup>4</sup>To illustrate why the dot products get large, assume that the components of <math>q</math> and <math>k</math> are independent random
+variables with mean 0 and variance 1. Then their dot product, <math>q \cdot k = \sum_{i=1}^{d_k} q_i k_i</math>, has mean 0 and variance <math>d_k</math>.
+4
